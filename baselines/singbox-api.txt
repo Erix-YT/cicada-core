@@ -1,0 +1,2839 @@
+== classes.jar: 183 классов ==
+go.Seq
+go.Universe
+go.error
+io.nekohasekai.libbox.AndroidVPNType
+io.nekohasekai.libbox.BridgeOptions
+io.nekohasekai.libbox.BridgeSession
+io.nekohasekai.libbox.ChainCloneState
+io.nekohasekai.libbox.ChainPosition
+io.nekohasekai.libbox.ChainPositionIterator
+io.nekohasekai.libbox.ChainState
+io.nekohasekai.libbox.ChainStateIterator
+io.nekohasekai.libbox.ChainToggleResult
+io.nekohasekai.libbox.CommandClient
+io.nekohasekai.libbox.CommandClientHandler
+io.nekohasekai.libbox.CommandClientOptions
+io.nekohasekai.libbox.CommandServer
+io.nekohasekai.libbox.CommandServerHandler
+io.nekohasekai.libbox.Connection
+io.nekohasekai.libbox.ConnectionEvent
+io.nekohasekai.libbox.ConnectionEventIterator
+io.nekohasekai.libbox.ConnectionEvents
+io.nekohasekai.libbox.ConnectionIterator
+io.nekohasekai.libbox.ConnectionOwner
+io.nekohasekai.libbox.Connections
+io.nekohasekai.libbox.DeprecatedNote
+io.nekohasekai.libbox.DeprecatedNoteIterator
+io.nekohasekai.libbox.DnsAnswer
+io.nekohasekai.libbox.DnsAnswerIterator
+io.nekohasekai.libbox.DnsGroup
+io.nekohasekai.libbox.DnsGroupAttempt
+io.nekohasekai.libbox.DnsGroupAttemptIterator
+io.nekohasekai.libbox.DnsGroupIterator
+io.nekohasekai.libbox.DnsGroupMember
+io.nekohasekai.libbox.DnsGroupMemberIterator
+io.nekohasekai.libbox.DnsQuery
+io.nekohasekai.libbox.EndpointToggleResult
+io.nekohasekai.libbox.ErrorMessage
+io.nekohasekai.libbox.ExchangeContext
+io.nekohasekai.libbox.FDroidMirror
+io.nekohasekai.libbox.FDroidMirrorIterator
+io.nekohasekai.libbox.FDroidPingResult
+io.nekohasekai.libbox.FDroidPingResultIterator
+io.nekohasekai.libbox.FDroidUpdateInfo
+io.nekohasekai.libbox.Func
+io.nekohasekai.libbox.GetURLResult
+io.nekohasekai.libbox.HTTPClient
+io.nekohasekai.libbox.HTTPHeaders
+io.nekohasekai.libbox.HTTPRequest
+io.nekohasekai.libbox.HTTPResponse
+io.nekohasekai.libbox.HTTPResponseWriteToProgressHandler
+io.nekohasekai.libbox.ImportRemoteProfile
+io.nekohasekai.libbox.Int32Iterator
+io.nekohasekai.libbox.InterfaceUpdateListener
+io.nekohasekai.libbox.Libbox
+io.nekohasekai.libbox.LocalDNSTransport
+io.nekohasekai.libbox.LogEntry
+io.nekohasekai.libbox.LogIterator
+io.nekohasekai.libbox.NeighborEntry
+io.nekohasekai.libbox.NeighborEntryIterator
+io.nekohasekai.libbox.NeighborSubscription
+io.nekohasekai.libbox.NeighborUpdateListener
+io.nekohasekai.libbox.NetworkInterface
+io.nekohasekai.libbox.NetworkInterfaceIterator
+io.nekohasekai.libbox.NetworkQualityProgress
+io.nekohasekai.libbox.NetworkQualityResult
+io.nekohasekai.libbox.NetworkQualityTest
+io.nekohasekai.libbox.NetworkQualityTestHandler
+io.nekohasekai.libbox.NetworkQualityTestSession
+io.nekohasekai.libbox.Notification
+io.nekohasekai.libbox.OnDemandRule
+io.nekohasekai.libbox.OnDemandRuleIterator
+io.nekohasekai.libbox.OpenConnectAuthChallenge
+io.nekohasekai.libbox.OpenConnectAuthForm
+io.nekohasekai.libbox.OpenConnectAuthFormChoice
+io.nekohasekai.libbox.OpenConnectAuthFormChoiceIterator
+io.nekohasekai.libbox.OpenConnectAuthFormField
+io.nekohasekai.libbox.OpenConnectAuthFormFieldIterator
+io.nekohasekai.libbox.OpenConnectAuthResponse
+io.nekohasekai.libbox.OpenConnectBrowserRequest
+io.nekohasekai.libbox.OpenConnectBrowserResult
+io.nekohasekai.libbox.OpenConnectEndpointStatus
+io.nekohasekai.libbox.OpenConnectEndpointStatusIterator
+io.nekohasekai.libbox.OpenConnectFormValues
+io.nekohasekai.libbox.OpenConnectStatusHandler
+io.nekohasekai.libbox.OpenConnectStatusSubscription
+io.nekohasekai.libbox.OpenConnectStatusUpdate
+io.nekohasekai.libbox.OpenConnectTunnelInfo
+io.nekohasekai.libbox.OpenVPNChallenge
+io.nekohasekai.libbox.OpenVPNChallengeResponse
+io.nekohasekai.libbox.OpenVPNEndpointStatus
+io.nekohasekai.libbox.OpenVPNEndpointStatusIterator
+io.nekohasekai.libbox.OpenVPNStatusHandler
+io.nekohasekai.libbox.OpenVPNStatusSubscription
+io.nekohasekai.libbox.OpenVPNStatusUpdate
+io.nekohasekai.libbox.OpenVPNTunnelInfo
+io.nekohasekai.libbox.OutboundGroup
+io.nekohasekai.libbox.OutboundGroupItem
+io.nekohasekai.libbox.OutboundGroupItemIterator
+io.nekohasekai.libbox.OutboundGroupIterator
+io.nekohasekai.libbox.OverrideOptions
+io.nekohasekai.libbox.PProfServer
+io.nekohasekai.libbox.PeerStatus
+io.nekohasekai.libbox.PeerStatusIterator
+io.nekohasekai.libbox.PlatformInterface
+io.nekohasekai.libbox.PlatformUser
+io.nekohasekai.libbox.PoolSlot
+io.nekohasekai.libbox.PoolSlotIterator
+io.nekohasekai.libbox.ProcessInfo
+io.nekohasekai.libbox.ProfileContent
+io.nekohasekai.libbox.ProfileContentRequest
+io.nekohasekai.libbox.ProfileDecoder
+io.nekohasekai.libbox.ProfileEncoder
+io.nekohasekai.libbox.ProfilePreview
+io.nekohasekai.libbox.ProfilePreviewIterator
+io.nekohasekai.libbox.RemoteConnectionOptions
+io.nekohasekai.libbox.RoutePrefix
+io.nekohasekai.libbox.RoutePrefixIterator
+io.nekohasekai.libbox.Rule
+io.nekohasekai.libbox.RuleIterator
+io.nekohasekai.libbox.RunningConfig
+io.nekohasekai.libbox.STUNTest
+io.nekohasekai.libbox.STUNTestHandler
+io.nekohasekai.libbox.STUNTestProgress
+io.nekohasekai.libbox.STUNTestResult
+io.nekohasekai.libbox.STUNTestSession
+io.nekohasekai.libbox.SetupOptions
+io.nekohasekai.libbox.ShellSession
+io.nekohasekai.libbox.StatusMessage
+io.nekohasekai.libbox.StringBox
+io.nekohasekai.libbox.StringIterator
+io.nekohasekai.libbox.SystemProxyStatus
+io.nekohasekai.libbox.TaildropDownloadHandler
+io.nekohasekai.libbox.TaildropDownloadSession
+io.nekohasekai.libbox.TaildropFile
+io.nekohasekai.libbox.TaildropFileIterator
+io.nekohasekai.libbox.TaildropInbox
+io.nekohasekai.libbox.TaildropInboxHandler
+io.nekohasekai.libbox.TaildropInboxSubscription
+io.nekohasekai.libbox.TaildropReceivingFile
+io.nekohasekai.libbox.TaildropReceivingFileIterator
+io.nekohasekai.libbox.TaildropSendHandler
+io.nekohasekai.libbox.TaildropSendOptions
+io.nekohasekai.libbox.TaildropSendSession
+io.nekohasekai.libbox.TailscaleEndpointStatus
+io.nekohasekai.libbox.TailscaleEndpointStatusIterator
+io.nekohasekai.libbox.TailscalePeer
+io.nekohasekai.libbox.TailscalePeerIterator
+io.nekohasekai.libbox.TailscalePingHandler
+io.nekohasekai.libbox.TailscalePingResult
+io.nekohasekai.libbox.TailscalePingSession
+io.nekohasekai.libbox.TailscaleSSHHandler
+io.nekohasekai.libbox.TailscaleSSHOptions
+io.nekohasekai.libbox.TailscaleSSHSession
+io.nekohasekai.libbox.TailscaleStatusHandler
+io.nekohasekai.libbox.TailscaleStatusSubscription
+io.nekohasekai.libbox.TailscaleStatusUpdate
+io.nekohasekai.libbox.TailscaleUserGroup
+io.nekohasekai.libbox.TailscaleUserGroupIterator
+io.nekohasekai.libbox.TunOptions
+io.nekohasekai.libbox.URLTestOutboundResult
+io.nekohasekai.libbox.USBDeviceDescriptor
+io.nekohasekai.libbox.USBIPServerStatus
+io.nekohasekai.libbox.USBIPServerStatusHandler
+io.nekohasekai.libbox.USBIPServerStatusIterator
+io.nekohasekai.libbox.USBIPServerStatusSubscription
+io.nekohasekai.libbox.USBIPServerStatusUpdate
+io.nekohasekai.libbox.USBIsoPacket
+io.nekohasekai.libbox.USBLocalDeviceInfo
+io.nekohasekai.libbox.USBLocalDeviceInfoIterator
+io.nekohasekai.libbox.USBLocalProvidedDevice
+io.nekohasekai.libbox.USBLocalProviderHandler
+io.nekohasekai.libbox.USBLocalProviderManager
+io.nekohasekai.libbox.USBProviderHandler
+io.nekohasekai.libbox.USBProviderSession
+io.nekohasekai.libbox.USBSharedDevice
+io.nekohasekai.libbox.USBSharedDeviceInterface
+io.nekohasekai.libbox.USBSharedDeviceInterfaceIterator
+io.nekohasekai.libbox.USBSharedDeviceIterator
+io.nekohasekai.libbox.USBURBRequest
+io.nekohasekai.libbox.USBURBResponse
+io.nekohasekai.libbox.WIFIState
+io.nekohasekai.libbox.WireGuardEndpointStatus
+io.nekohasekai.libbox.XPCDialer
+
+Compiled from "AndroidVPNType.java"
+public final class io.nekohasekai.libbox.AndroidVPNType implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.AndroidVPNType();
+  public final native java.lang.String getCoreType();
+  public final native void setCoreType(java.lang.String);
+  public final native java.lang.String getCorePath();
+  public final native void setCorePath(java.lang.String);
+  public final native java.lang.String getGoVersion();
+  public final native void setGoVersion(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "BridgeOptions.java"
+public final class io.nekohasekai.libbox.BridgeOptions implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.BridgeOptions();
+  public final native java.lang.String getBridgeName();
+  public final native void setBridgeName(java.lang.String);
+  public final native int getMTU();
+  public final native void setMTU(int);
+  public final native java.lang.String getInet4Port();
+  public final native void setInet4Port(java.lang.String);
+  public final native java.lang.String getInet6Port();
+  public final native void setInet6Port(java.lang.String);
+  public final native java.lang.String getInterface();
+  public final native void setInterface(java.lang.String);
+  public final native int getRuleIndex();
+  public final native void setRuleIndex(int);
+  public final native int getRouteTable();
+  public final native void setRouteTable(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "BridgeSession.java"
+public interface io.nekohasekai.libbox.BridgeSession {
+  public abstract void close() throws java.lang.Exception;
+  public abstract int fileDescriptor();
+  public abstract boolean inet6Active();
+  public abstract java.lang.String name();
+  public abstract void setEgress(java.lang.String) throws java.lang.Exception;
+}
+Compiled from "ChainCloneState.java"
+public final class io.nekohasekai.libbox.ChainCloneState implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ChainCloneState();
+  public final native java.lang.String getState();
+  public final native void setState(java.lang.String);
+  public final native long getActiveConns();
+  public final native void setActiveConns(long);
+  public final native long getLastPickedAgeMs();
+  public final native void setLastPickedAgeMs(long);
+  public final native long getCreatedAgeMs();
+  public final native void setCreatedAgeMs(long);
+  public final native int getMTUConfigured();
+  public final native void setMTUConfigured(int);
+  public final native int getMTUEffective();
+  public final native void setMTUEffective(int);
+  public final native java.lang.String getMTUReason();
+  public final native void setMTUReason(java.lang.String);
+  public final native boolean getRewritten();
+  public final native void setRewritten(boolean);
+  public final native java.lang.String getLastError();
+  public final native void setLastError(java.lang.String);
+  public native io.nekohasekai.libbox.StringIterator stripped();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ChainPosition.java"
+public final class io.nekohasekai.libbox.ChainPosition implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ChainPosition();
+  public final native java.lang.String getTag();
+  public final native void setTag(java.lang.String);
+  public final native boolean getIsGroup();
+  public final native void setIsGroup(boolean);
+  public final native java.lang.String getNow();
+  public final native void setNow(java.lang.String);
+  public final native boolean getTransparent();
+  public final native void setTransparent(boolean);
+  public final native boolean getDisabled();
+  public final native void setDisabled(boolean);
+  public final native long getErrors();
+  public final native void setErrors(long);
+  public final native io.nekohasekai.libbox.ChainCloneState getClone();
+  public final native void setClone(io.nekohasekai.libbox.ChainCloneState);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ChainPositionIterator.java"
+public interface io.nekohasekai.libbox.ChainPositionIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.ChainPosition next();
+}
+Compiled from "ChainState.java"
+public final class io.nekohasekai.libbox.ChainState implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ChainState();
+  public final native java.lang.String getTag();
+  public final native void setTag(java.lang.String);
+  public final native long getDials();
+  public final native void setDials(long);
+  public final native long getErrors();
+  public final native void setErrors(long);
+  public final native long getClonesCreated();
+  public final native void setClonesCreated(long);
+  public final native long getClonesEvicted();
+  public final native void setClonesEvicted(long);
+  public final native long getLiveClones();
+  public final native void setLiveClones(long);
+  public native io.nekohasekai.libbox.ChainPositionIterator positions();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ChainStateIterator.java"
+public interface io.nekohasekai.libbox.ChainStateIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.ChainState next();
+}
+Compiled from "ChainToggleResult.java"
+public final class io.nekohasekai.libbox.ChainToggleResult implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ChainToggleResult();
+  public final native java.lang.String getWarmupError();
+  public final native void setWarmupError(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "CommandClient.java"
+public final class io.nekohasekai.libbox.CommandClient implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.CommandClient(io.nekohasekai.libbox.CommandClientHandler, io.nekohasekai.libbox.CommandClientOptions);
+  public native void cancelOpenConnectAuthChallenge(java.lang.String, java.lang.String) throws java.lang.Exception;
+  public native void cancelOpenVPNChallenge(java.lang.String, java.lang.String) throws java.lang.Exception;
+  public native void cancelTaildropReceiving(java.lang.String, java.lang.String, java.lang.String) throws java.lang.Exception;
+  public native void clearLogs() throws java.lang.Exception;
+  public native void closeConnection(java.lang.String) throws java.lang.Exception;
+  public native void closeConnections() throws java.lang.Exception;
+  public native void connect() throws java.lang.Exception;
+  public native void connectWithFD(int) throws java.lang.Exception;
+  public native void deleteTaildropFile(java.lang.String, java.lang.String) throws java.lang.Exception;
+  public native void disconnect() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.TaildropDownloadSession downloadTaildropFile(java.lang.String, java.lang.String, java.lang.String, io.nekohasekai.libbox.TaildropDownloadHandler) throws java.lang.Exception;
+  public native int getAPIVersion() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.RunningConfig getChainCloneConfig(java.lang.String, int) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.ChainStateIterator getChains() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.DnsGroupIterator getDNSGroups() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.DeprecatedNoteIterator getDeprecatedNotes() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.OutboundGroupIterator getGroups() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.OutboundGroupItemIterator getOutbounds() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.PoolSlotIterator getPool(java.lang.String) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.RuleIterator getRules() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.RunningConfig getRunningConfig() throws java.lang.Exception;
+  public native long getStartedAt() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.SystemProxyStatus getSystemProxyStatus() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.TailscaleEndpointStatus getTailscaleStatus(java.lang.String) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.GetURLResult getURLViaOutbound(java.lang.String, java.lang.String, int, int, io.nekohasekai.libbox.HTTPHeaders) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.WireGuardEndpointStatus getWireGuardStatus(java.lang.String) throws java.lang.Exception;
+  public native void markTaildropInboxRead(java.lang.String) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.USBLocalProviderManager newUSBLocalProvider(io.nekohasekai.libbox.USBLocalProviderHandler) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.USBProviderSession provideUSBDevices(io.nekohasekai.libbox.USBProviderHandler) throws java.lang.Exception;
+  public native void selectOutbound(java.lang.String, java.lang.String) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.TaildropSendSession sendTaildropFiles(io.nekohasekai.libbox.TaildropSendOptions, io.nekohasekai.libbox.TaildropSendHandler) throws java.lang.Exception;
+  public native void serviceClose() throws java.lang.Exception;
+  public native void serviceReload() throws java.lang.Exception;
+  public native io.nekohasekai.libbox.ChainToggleResult setChainPositionEnabled(java.lang.String, int, boolean) throws java.lang.Exception;
+  public native void setClashMode(java.lang.String) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.EndpointToggleResult setEndpointEnabled(java.lang.String, boolean) throws java.lang.Exception;
+  public native void setGroupExpand(java.lang.String, boolean) throws java.lang.Exception;
+  public native void setSystemProxyEnabled(boolean) throws java.lang.Exception;
+  public native void setTailscaleExitNode(java.lang.String, java.lang.String) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.NetworkQualityTestSession startNetworkQualityTest(java.lang.String, java.lang.String, boolean, int, boolean, io.nekohasekai.libbox.NetworkQualityTestHandler) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.STUNTestSession startSTUNTest(java.lang.String, java.lang.String, io.nekohasekai.libbox.STUNTestHandler) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.TailscalePingSession startTailscalePing(java.lang.String, java.lang.String, io.nekohasekai.libbox.TailscalePingHandler) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.TailscaleSSHSession startTailscaleSSHSession(io.nekohasekai.libbox.TailscaleSSHOptions, io.nekohasekai.libbox.TailscaleSSHHandler) throws java.lang.Exception;
+  public native void submitOpenConnectAuthResponse(java.lang.String, java.lang.String, io.nekohasekai.libbox.OpenConnectAuthResponse) throws java.lang.Exception;
+  public native void submitOpenVPNChallengeResponse(java.lang.String, java.lang.String, io.nekohasekai.libbox.OpenVPNChallengeResponse) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.OpenConnectStatusSubscription subscribeOpenConnectStatus(io.nekohasekai.libbox.OpenConnectStatusHandler) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.OpenVPNStatusSubscription subscribeOpenVPNStatus(io.nekohasekai.libbox.OpenVPNStatusHandler) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.TaildropInboxSubscription subscribeTaildropInbox(java.lang.String, io.nekohasekai.libbox.TaildropInboxHandler) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.TailscaleStatusSubscription subscribeTailscaleStatus(io.nekohasekai.libbox.TailscaleStatusHandler) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.USBIPServerStatusSubscription subscribeUSBIPServerStatus(io.nekohasekai.libbox.USBIPServerStatusHandler) throws java.lang.Exception;
+  public native void tailscaleLogout(java.lang.String) throws java.lang.Exception;
+  public native void triggerGoCrash() throws java.lang.Exception;
+  public native void triggerNativeCrash() throws java.lang.Exception;
+  public native void triggerOOMReport() throws java.lang.Exception;
+  public native void urlTest(java.lang.String) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.URLTestOutboundResult urlTestOutbound(java.lang.String, java.lang.String, int) throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "CommandClientHandler.java"
+public interface io.nekohasekai.libbox.CommandClientHandler {
+  public abstract void clearLogs();
+  public abstract void connected();
+  public abstract void disconnected(java.lang.String);
+  public abstract void initializeClashMode(io.nekohasekai.libbox.StringIterator, java.lang.String);
+  public abstract void setDefaultLogLevel(int);
+  public abstract void updateClashMode(java.lang.String);
+  public abstract void writeConnectionEvents(io.nekohasekai.libbox.ConnectionEvents);
+  public abstract void writeDNSQuery(io.nekohasekai.libbox.DnsQuery);
+  public abstract void writeGroups(io.nekohasekai.libbox.OutboundGroupIterator);
+  public abstract void writeLogs(io.nekohasekai.libbox.LogIterator);
+  public abstract void writeOutbounds(io.nekohasekai.libbox.OutboundGroupItemIterator);
+  public abstract void writeStatus(io.nekohasekai.libbox.StatusMessage);
+}
+Compiled from "CommandClientOptions.java"
+public final class io.nekohasekai.libbox.CommandClientOptions implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.CommandClientOptions();
+  public final native long getStatusInterval();
+  public final native void setStatusInterval(long);
+  public final native boolean getDNSIncludeAnswers();
+  public final native void setDNSIncludeAnswers(boolean);
+  public native void addCommand(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "CommandServer.java"
+public final class io.nekohasekai.libbox.CommandServer implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.CommandServer(io.nekohasekai.libbox.CommandServerHandler, io.nekohasekai.libbox.PlatformInterface);
+  public native void cancelNotification(java.lang.String, int) throws java.lang.Exception;
+  public native void close();
+  public native void closeService() throws java.lang.Exception;
+  public native boolean needFindProcess();
+  public native boolean needWIFIState();
+  public native void pause();
+  public native boolean ready();
+  public native void rebindStaleEndpoints();
+  public native void recordScreenState(boolean);
+  public native void resetNetwork();
+  public native void setError(java.lang.String);
+  public native void start() throws java.lang.Exception;
+  public native void startOrReloadService(java.lang.String, io.nekohasekai.libbox.OverrideOptions) throws java.lang.Exception;
+  public native void updateWIFIState();
+  public native void wake();
+  public native void wakeNow();
+  public native void writeMessage(int, java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "CommandServerHandler.java"
+public interface io.nekohasekai.libbox.CommandServerHandler {
+  public abstract int connectSSHAgent() throws java.lang.Exception;
+  public abstract io.nekohasekai.libbox.SystemProxyStatus getSystemProxyStatus() throws java.lang.Exception;
+  public abstract void serviceReload() throws java.lang.Exception;
+  public abstract void serviceStop() throws java.lang.Exception;
+  public abstract void setSystemProxyEnabled(boolean) throws java.lang.Exception;
+  public abstract void triggerNativeCrash() throws java.lang.Exception;
+  public abstract void writeDebugMessage(java.lang.String);
+}
+Compiled from "Connection.java"
+public final class io.nekohasekai.libbox.Connection implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.Connection();
+  public final native java.lang.String getID();
+  public final native void setID(java.lang.String);
+  public final native java.lang.String getInbound();
+  public final native void setInbound(java.lang.String);
+  public final native java.lang.String getInboundType();
+  public final native void setInboundType(java.lang.String);
+  public final native int getIPVersion();
+  public final native void setIPVersion(int);
+  public final native java.lang.String getNetwork();
+  public final native void setNetwork(java.lang.String);
+  public final native java.lang.String getSource();
+  public final native void setSource(java.lang.String);
+  public final native java.lang.String getDestination();
+  public final native void setDestination(java.lang.String);
+  public final native java.lang.String getDomain();
+  public final native void setDomain(java.lang.String);
+  public final native java.lang.String getProtocol();
+  public final native void setProtocol(java.lang.String);
+  public final native java.lang.String getUser();
+  public final native void setUser(java.lang.String);
+  public final native java.lang.String getFromOutbound();
+  public final native void setFromOutbound(java.lang.String);
+  public final native long getCreatedAt();
+  public final native void setCreatedAt(long);
+  public final native long getClosedAt();
+  public final native void setClosedAt(long);
+  public final native long getUplink();
+  public final native void setUplink(long);
+  public final native long getDownlink();
+  public final native void setDownlink(long);
+  public final native long getUplinkTotal();
+  public final native void setUplinkTotal(long);
+  public final native long getDownlinkTotal();
+  public final native void setDownlinkTotal(long);
+  public final native java.lang.String getRule();
+  public final native void setRule(java.lang.String);
+  public final native java.lang.String getOutbound();
+  public final native void setOutbound(java.lang.String);
+  public final native java.lang.String getOutboundType();
+  public final native void setOutboundType(java.lang.String);
+  public final native io.nekohasekai.libbox.ProcessInfo getProcessInfo();
+  public final native void setProcessInfo(io.nekohasekai.libbox.ProcessInfo);
+  public native io.nekohasekai.libbox.StringIterator chain();
+  public native io.nekohasekai.libbox.StringIterator detour();
+  public native java.lang.String displayDestination();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ConnectionEvent.java"
+public final class io.nekohasekai.libbox.ConnectionEvent implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ConnectionEvent();
+  public final native int getType();
+  public final native void setType(int);
+  public final native java.lang.String getID();
+  public final native void setID(java.lang.String);
+  public final native io.nekohasekai.libbox.Connection getConnection();
+  public final native void setConnection(io.nekohasekai.libbox.Connection);
+  public final native long getUplinkDelta();
+  public final native void setUplinkDelta(long);
+  public final native long getDownlinkDelta();
+  public final native void setDownlinkDelta(long);
+  public final native long getClosedAt();
+  public final native void setClosedAt(long);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ConnectionEventIterator.java"
+public interface io.nekohasekai.libbox.ConnectionEventIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.ConnectionEvent next();
+}
+Compiled from "ConnectionEvents.java"
+public final class io.nekohasekai.libbox.ConnectionEvents implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ConnectionEvents();
+  public final native boolean getReset();
+  public final native void setReset(boolean);
+  public native io.nekohasekai.libbox.ConnectionEventIterator iterator();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ConnectionIterator.java"
+public interface io.nekohasekai.libbox.ConnectionIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.Connection next();
+}
+Compiled from "ConnectionOwner.java"
+public final class io.nekohasekai.libbox.ConnectionOwner implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ConnectionOwner();
+  public final native int getUserId();
+  public final native void setUserId(int);
+  public final native java.lang.String getUserName();
+  public final native void setUserName(java.lang.String);
+  public final native java.lang.String getProcessPath();
+  public final native void setProcessPath(java.lang.String);
+  public native io.nekohasekai.libbox.StringIterator androidPackageNames();
+  public native void setAndroidPackageNames(io.nekohasekai.libbox.StringIterator);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "Connections.java"
+public final class io.nekohasekai.libbox.Connections implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.Connections();
+  public native void applyEvents(io.nekohasekai.libbox.ConnectionEvents);
+  public native void filterState(int);
+  public native io.nekohasekai.libbox.ConnectionIterator iterator();
+  public native void sortByDate();
+  public native void sortByTraffic();
+  public native void sortByTrafficTotal();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "DeprecatedNote.java"
+public final class io.nekohasekai.libbox.DeprecatedNote implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.DeprecatedNote();
+  public final native java.lang.String getName();
+  public final native void setName(java.lang.String);
+  public final native java.lang.String getDescription();
+  public final native void setDescription(java.lang.String);
+  public final native java.lang.String getDeprecatedVersion();
+  public final native void setDeprecatedVersion(java.lang.String);
+  public final native java.lang.String getScheduledVersion();
+  public final native void setScheduledVersion(java.lang.String);
+  public final native java.lang.String getEnvName();
+  public final native void setEnvName(java.lang.String);
+  public final native java.lang.String getMigrationLink();
+  public final native void setMigrationLink(java.lang.String);
+  public native boolean impending();
+  public native java.lang.String message();
+  public native java.lang.String messageWithLink();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "DeprecatedNoteIterator.java"
+public interface io.nekohasekai.libbox.DeprecatedNoteIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.DeprecatedNote next();
+}
+Compiled from "DnsAnswer.java"
+public final class io.nekohasekai.libbox.DnsAnswer implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.DnsAnswer();
+  public final native java.lang.String getName();
+  public final native void setName(java.lang.String);
+  public final native int getType();
+  public final native void setType(int);
+  public final native java.lang.String getRData();
+  public final native void setRData(java.lang.String);
+  public final native int getTTL();
+  public final native void setTTL(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "DnsAnswerIterator.java"
+public interface io.nekohasekai.libbox.DnsAnswerIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.DnsAnswer next();
+}
+Compiled from "DnsGroup.java"
+public final class io.nekohasekai.libbox.DnsGroup implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.DnsGroup();
+  public final native java.lang.String getTag();
+  public final native void setTag(java.lang.String);
+  public final native java.lang.String getMode();
+  public final native void setMode(java.lang.String);
+  public final native java.lang.String getCurrent();
+  public final native void setCurrent(java.lang.String);
+  public native io.nekohasekai.libbox.DnsGroupMemberIterator members();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "DnsGroupAttempt.java"
+public final class io.nekohasekai.libbox.DnsGroupAttempt implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.DnsGroupAttempt();
+  public final native java.lang.String getServer();
+  public final native void setServer(java.lang.String);
+  public final native java.lang.String getServerType();
+  public final native void setServerType(java.lang.String);
+  public final native java.lang.String getOutcome();
+  public final native void setOutcome(java.lang.String);
+  public final native int getRTTMs();
+  public final native void setRTTMs(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "DnsGroupAttemptIterator.java"
+public interface io.nekohasekai.libbox.DnsGroupAttemptIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.DnsGroupAttempt next();
+}
+Compiled from "DnsGroupIterator.java"
+public interface io.nekohasekai.libbox.DnsGroupIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.DnsGroup next();
+}
+Compiled from "DnsGroupMember.java"
+public final class io.nekohasekai.libbox.DnsGroupMember implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.DnsGroupMember();
+  public final native java.lang.String getTag();
+  public final native void setTag(java.lang.String);
+  public final native java.lang.String getServerType();
+  public final native void setServerType(java.lang.String);
+  public final native boolean getClean();
+  public final native void setClean(boolean);
+  public final native int getLiveErrors();
+  public final native void setLiveErrors(int);
+  public final native long getLastErrorAgeMs();
+  public final native void setLastErrorAgeMs(long);
+  public final native int getLiveWins();
+  public final native void setLiveWins(int);
+  public final native boolean getCurrent();
+  public final native void setCurrent(boolean);
+  public final native int getLastRTTMs();
+  public final native void setLastRTTMs(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "DnsGroupMemberIterator.java"
+public interface io.nekohasekai.libbox.DnsGroupMemberIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.DnsGroupMember next();
+}
+Compiled from "DnsQuery.java"
+public final class io.nekohasekai.libbox.DnsQuery implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.DnsQuery();
+  public final native java.lang.String getDomain();
+  public final native void setDomain(java.lang.String);
+  public final native int getQueryType();
+  public final native void setQueryType(int);
+  public final native int getRcode();
+  public final native void setRcode(int);
+  public final native int getTTL();
+  public final native void setTTL(int);
+  public final native java.lang.String getSource();
+  public final native void setSource(java.lang.String);
+  public final native boolean getFailed();
+  public final native void setFailed(boolean);
+  public final native java.lang.String getError();
+  public final native void setError(java.lang.String);
+  public final native java.lang.String getDNSServer();
+  public final native void setDNSServer(java.lang.String);
+  public final native java.lang.String getDNSServerType();
+  public final native void setDNSServerType(java.lang.String);
+  public final native boolean getFanned();
+  public final native void setFanned(boolean);
+  public final native boolean getSurvival();
+  public final native void setSurvival(boolean);
+  public final native io.nekohasekai.libbox.ProcessInfo getProcessInfo();
+  public final native void setProcessInfo(io.nekohasekai.libbox.ProcessInfo);
+  public native io.nekohasekai.libbox.DnsAnswerIterator answers();
+  public native io.nekohasekai.libbox.DnsGroupAttemptIterator attempts();
+  public native io.nekohasekai.libbox.StringIterator groupPath();
+  public native io.nekohasekai.libbox.StringIterator outbound();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "EndpointToggleResult.java"
+public final class io.nekohasekai.libbox.EndpointToggleResult implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.EndpointToggleResult();
+  public final native java.lang.String getState();
+  public final native void setState(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ErrorMessage.java"
+public final class io.nekohasekai.libbox.ErrorMessage implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ErrorMessage();
+  public final native java.lang.String getMessage();
+  public final native void setMessage(java.lang.String);
+  public native byte[] encode();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ExchangeContext.java"
+public final class io.nekohasekai.libbox.ExchangeContext implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ExchangeContext();
+  public native void errnoCode(int);
+  public native void errorCode(int);
+  public native void onCancel(io.nekohasekai.libbox.Func);
+  public native void rawSuccess(byte[]);
+  public native void success(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "FDroidMirror.java"
+public final class io.nekohasekai.libbox.FDroidMirror implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.FDroidMirror();
+  public final native java.lang.String getURL();
+  public final native void setURL(java.lang.String);
+  public final native java.lang.String getCountry();
+  public final native void setCountry(java.lang.String);
+  public final native java.lang.String getName();
+  public final native void setName(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "FDroidMirrorIterator.java"
+public interface io.nekohasekai.libbox.FDroidMirrorIterator {
+  public abstract boolean hasNext();
+  public abstract int len();
+  public abstract io.nekohasekai.libbox.FDroidMirror next();
+}
+Compiled from "FDroidPingResult.java"
+public final class io.nekohasekai.libbox.FDroidPingResult implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.FDroidPingResult();
+  public final native java.lang.String getURL();
+  public final native void setURL(java.lang.String);
+  public final native int getLatencyMs();
+  public final native void setLatencyMs(int);
+  public final native java.lang.String getError();
+  public final native void setError(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "FDroidPingResultIterator.java"
+public interface io.nekohasekai.libbox.FDroidPingResultIterator {
+  public abstract boolean hasNext();
+  public abstract int len();
+  public abstract io.nekohasekai.libbox.FDroidPingResult next();
+}
+Compiled from "FDroidUpdateInfo.java"
+public final class io.nekohasekai.libbox.FDroidUpdateInfo implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.FDroidUpdateInfo();
+  public final native int getVersionCode();
+  public final native void setVersionCode(int);
+  public final native java.lang.String getVersionName();
+  public final native void setVersionName(java.lang.String);
+  public final native java.lang.String getDownloadURL();
+  public final native void setDownloadURL(java.lang.String);
+  public final native long getFileSize();
+  public final native void setFileSize(long);
+  public final native java.lang.String getFileSHA256();
+  public final native void setFileSHA256(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "Func.java"
+public interface io.nekohasekai.libbox.Func {
+  public abstract void invoke() throws java.lang.Exception;
+}
+Compiled from "GetURLResult.java"
+public final class io.nekohasekai.libbox.GetURLResult implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.GetURLResult();
+  public native java.lang.String content();
+  public native java.lang.String contentType();
+  public native int elapsedMs();
+  public native java.lang.String remoteAddr();
+  public native int status();
+  public native boolean truncated();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "HTTPClient.java"
+public interface io.nekohasekai.libbox.HTTPClient {
+  public abstract void close();
+  public abstract void keepAlive();
+  public abstract void modernTLS();
+  public abstract io.nekohasekai.libbox.HTTPRequest newRequest();
+  public abstract void pinnedSHA256(java.lang.String);
+  public abstract void pinnedTLS12();
+  public abstract void restrictedTLS();
+  public abstract void trySocks5(int);
+}
+Compiled from "HTTPHeaders.java"
+public final class io.nekohasekai.libbox.HTTPHeaders implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.HTTPHeaders();
+  public native void add(java.lang.String, java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "HTTPRequest.java"
+public interface io.nekohasekai.libbox.HTTPRequest {
+  public abstract io.nekohasekai.libbox.HTTPResponse execute() throws java.lang.Exception;
+  public abstract void randomUserAgent();
+  public abstract void setContent(byte[]);
+  public abstract void setContentString(java.lang.String);
+  public abstract void setHeader(java.lang.String, java.lang.String);
+  public abstract void setMethod(java.lang.String);
+  public abstract void setURL(java.lang.String) throws java.lang.Exception;
+  public abstract void setUserAgent(java.lang.String);
+}
+Compiled from "HTTPResponse.java"
+public interface io.nekohasekai.libbox.HTTPResponse {
+  public abstract io.nekohasekai.libbox.StringBox getContent() throws java.lang.Exception;
+  public abstract void writeTo(java.lang.String) throws java.lang.Exception;
+  public abstract void writeToWithProgress(java.lang.String, io.nekohasekai.libbox.HTTPResponseWriteToProgressHandler) throws java.lang.Exception;
+}
+Compiled from "HTTPResponseWriteToProgressHandler.java"
+public interface io.nekohasekai.libbox.HTTPResponseWriteToProgressHandler {
+  public abstract void update(long, long);
+}
+Compiled from "ImportRemoteProfile.java"
+public final class io.nekohasekai.libbox.ImportRemoteProfile implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ImportRemoteProfile();
+  public final native java.lang.String getName();
+  public final native void setName(java.lang.String);
+  public final native java.lang.String getURL();
+  public final native void setURL(java.lang.String);
+  public final native java.lang.String getHost();
+  public final native void setHost(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "Int32Iterator.java"
+public interface io.nekohasekai.libbox.Int32Iterator {
+  public abstract boolean hasNext();
+  public abstract int len();
+  public abstract int next();
+}
+Compiled from "InterfaceUpdateListener.java"
+public interface io.nekohasekai.libbox.InterfaceUpdateListener {
+  public abstract void updateDefaultInterface(java.lang.String, int, boolean, boolean);
+  public abstract void updateNetworkPath(java.lang.String);
+}
+Compiled from "Libbox.java"
+public abstract class io.nekohasekai.libbox.Libbox {
+  public static final int CommandClashMode;
+  public static final int CommandConnections;
+  public static final int CommandDNS;
+  public static final int CommandGroup;
+  public static final int CommandLog;
+  public static final int CommandOutbounds;
+  public static final int CommandStatus;
+  public static final long ConnectionEventClosed;
+  public static final long ConnectionEventNew;
+  public static final long ConnectionEventUpdate;
+  public static final long ConnectionStateActive;
+  public static final long ConnectionStateAll;
+  public static final long ConnectionStateClosed;
+  public static final java.lang.String DNSModeDisabled;
+  public static final java.lang.String DNSModeHijack;
+  public static final java.lang.String DNSModeNative;
+  public static final int InterfaceTypeCellular;
+  public static final int InterfaceTypeEthernet;
+  public static final int InterfaceTypeOther;
+  public static final int InterfaceTypeWIFI;
+  public static final long MessageTypeError;
+  public static final long MessageTypeProfileContent;
+  public static final long MessageTypeProfileContentRequest;
+  public static final long MessageTypeProfileList;
+  public static final int NATFilteringAddressAndPortDependent;
+  public static final int NATFilteringAddressDependent;
+  public static final int NATFilteringEndpointIndependent;
+  public static final int NATMappingAddressAndPortDependent;
+  public static final int NATMappingAddressDependent;
+  public static final int NATMappingEndpointIndependent;
+  public static final int NetworkQualityAccuracyHigh;
+  public static final int NetworkQualityAccuracyLow;
+  public static final int NetworkQualityAccuracyMedium;
+  public static final java.lang.String NetworkQualityDefaultConfigURL;
+  public static final int NetworkQualityDefaultMaxRuntimeSeconds;
+  public static final int NetworkQualityPhaseDone;
+  public static final int NetworkQualityPhaseDownload;
+  public static final int NetworkQualityPhaseIdle;
+  public static final int NetworkQualityPhaseUpload;
+  public static final int ProfileTypeLocal;
+  public static final int ProfileTypeRemote;
+  public static final int ProfileTypeiCloud;
+  public static final java.lang.String STUNDefaultServer;
+  public static final int STUNPhaseBinding;
+  public static final int STUNPhaseDone;
+  public static final int STUNPhaseNATFiltering;
+  public static final int STUNPhaseNATMapping;
+  public static final long TaildropChunkSize;
+  public static final int USBBackendDarwinIOKit;
+  public static final int USBBackendDynamic;
+  public static final int USBBackendLinuxSysfs;
+  public static final int USBBackendUnspecified;
+  public static final int USBBackendWindowsVBoxUSB;
+  public static final int USBDeviceStateAttached;
+  public static final int USBDeviceStateIdle;
+  public static final int USBDeviceStateUnavailable;
+  public static void touch();
+  public static native int availablePort(int) throws java.lang.Exception;
+  public static native void checkConfig(java.lang.String) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.FDroidUpdateInfo checkFDroidUpdate(java.lang.String, java.lang.String, int, java.lang.String) throws java.lang.Exception;
+  public static native boolean compareSemver(java.lang.String, java.lang.String);
+  public static native void createZipArchive(java.lang.String, java.lang.String, boolean) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.ErrorMessage decodeErrorMessage(byte[]) throws java.lang.Exception;
+  public static native int decodeLengthChunk(byte[]);
+  public static native io.nekohasekai.libbox.ProfileContent decodeProfileContent(byte[]) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.ProfileContentRequest decodeProfileContentRequest(byte[]) throws java.lang.Exception;
+  public static native void discardPowerReportDraft();
+  public static native byte[] encodeChunkedMessage(byte[]);
+  public static native java.lang.String formatBitrate(long);
+  public static native java.lang.String formatBytes(long);
+  public static native io.nekohasekai.libbox.StringBox formatConfig(java.lang.String) throws java.lang.Exception;
+  public static native java.lang.String formatDuration(long);
+  public static native java.lang.String formatFQDN(java.lang.String);
+  public static native java.lang.String formatMemoryBytes(long);
+  public static native java.lang.String formatNATFiltering(int);
+  public static native java.lang.String formatNATMapping(int);
+  public static native io.nekohasekai.libbox.StringBox generateConfigSchema() throws java.lang.Exception;
+  public static native java.lang.String generateRemoteProfileImportLink(java.lang.String, java.lang.String);
+  public static native io.nekohasekai.libbox.FDroidMirrorIterator getFDroidMirrors();
+  public static native java.lang.String goVersion();
+  public static native java.lang.String goroutineDump();
+  public static native boolean hasTunInbound(java.lang.String) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.BridgeSession newBridgeService(io.nekohasekai.libbox.BridgeOptions) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.CommandClient newCommandClient(io.nekohasekai.libbox.CommandClientHandler, io.nekohasekai.libbox.CommandClientOptions);
+  public static native io.nekohasekai.libbox.CommandServer newCommandServer(io.nekohasekai.libbox.CommandServerHandler, io.nekohasekai.libbox.PlatformInterface) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.Connections newConnections();
+  public static native io.nekohasekai.libbox.HTTPClient newHTTPClient();
+  public static native io.nekohasekai.libbox.HTTPHeaders newHTTPHeaders();
+  public static native io.nekohasekai.libbox.NetworkQualityTest newNetworkQualityTest();
+  public static native io.nekohasekai.libbox.OpenConnectAuthResponse newOpenConnectAuthFormResponse(io.nekohasekai.libbox.OpenConnectFormValues);
+  public static native io.nekohasekai.libbox.OpenConnectAuthResponse newOpenConnectBrowserAuthResponse(io.nekohasekai.libbox.OpenConnectBrowserResult);
+  public static native io.nekohasekai.libbox.OpenConnectBrowserResult newOpenConnectBrowserResult(java.lang.String);
+  public static native io.nekohasekai.libbox.OpenConnectFormValues newOpenConnectFormValues();
+  public static native io.nekohasekai.libbox.PProfServer newPProfServer(long);
+  public static native io.nekohasekai.libbox.CommandClient newRemoteCommandClient(io.nekohasekai.libbox.CommandClientHandler, io.nekohasekai.libbox.CommandClientOptions, io.nekohasekai.libbox.RemoteConnectionOptions) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.STUNTest newSTUNTest();
+  public static native io.nekohasekai.libbox.CommandClient newStandaloneCommandClient();
+  public static native io.nekohasekai.libbox.CommandClient newStandaloneRemoteCommandClient(io.nekohasekai.libbox.RemoteConnectionOptions) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.TaildropSendOptions newTaildropSendOptions();
+  public static native io.nekohasekai.libbox.USBDeviceDescriptor newUSBDeviceDescriptor(java.lang.String, java.lang.String);
+  public static native io.nekohasekai.libbox.USBURBResponse newUSBURBResponse(java.lang.String, long);
+  public static native io.nekohasekai.libbox.WIFIState newWIFIState(java.lang.String, java.lang.String);
+  public static native io.nekohasekai.libbox.ShellSession openNativePipeSession(java.lang.String, java.lang.String, io.nekohasekai.libbox.StringIterator, io.nekohasekai.libbox.StringIterator, int, int, io.nekohasekai.libbox.Int32Iterator) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.ShellSession openNativeShellSession(java.lang.String, java.lang.String, io.nekohasekai.libbox.StringIterator, io.nekohasekai.libbox.StringIterator, java.lang.String, int, int, int, int, io.nekohasekai.libbox.Int32Iterator) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.ImportRemoteProfile parseRemoteProfileImportLink(java.lang.String) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.FDroidPingResult pingFDroidMirror(java.lang.String);
+  public static native io.nekohasekai.libbox.FDroidPingResultIterator pingFDroidMirrors(java.lang.String) throws java.lang.Exception;
+  public static native void prepareCrashSignalHandlers();
+  public static native void promoteOOMDraft();
+  public static native void promoteOOMDraftAt(java.lang.String);
+  public static native java.lang.String proxyDisplayType(java.lang.String);
+  public static native io.nekohasekai.libbox.StringBox randomHex(int);
+  public static native io.nekohasekai.libbox.AndroidVPNType readAndroidVPNType(io.nekohasekai.libbox.StringIterator) throws java.lang.Exception;
+  public static native void reinstallCrashSignalHandlers();
+  public static native void reloadSetupOptions(io.nekohasekai.libbox.SetupOptions);
+  public static native void setLocale(java.lang.String) throws java.lang.Exception;
+  public static native void setQuicECNDisabled(boolean);
+  public static native void setQuicGSODisabled(boolean);
+  public static native void setXPCDialer(io.nekohasekai.libbox.XPCDialer);
+  public static native void setup(io.nekohasekai.libbox.SetupOptions) throws java.lang.Exception;
+  public static native io.nekohasekai.libbox.NeighborSubscription subscribeNeighborTable(io.nekohasekai.libbox.NeighborUpdateListener) throws java.lang.Exception;
+  public static native void triggerGoHang(int);
+  public static native void triggerGoPanic();
+  public static native java.lang.String version();
+}
+Compiled from "LocalDNSTransport.java"
+public interface io.nekohasekai.libbox.LocalDNSTransport {
+  public abstract void exchange(io.nekohasekai.libbox.ExchangeContext, byte[]) throws java.lang.Exception;
+  public abstract void lookup(io.nekohasekai.libbox.ExchangeContext, java.lang.String, java.lang.String) throws java.lang.Exception;
+  public abstract boolean raw();
+}
+Compiled from "LogEntry.java"
+public final class io.nekohasekai.libbox.LogEntry implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.LogEntry();
+  public final native int getLevel();
+  public final native void setLevel(int);
+  public final native java.lang.String getMessage();
+  public final native void setMessage(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "LogIterator.java"
+public interface io.nekohasekai.libbox.LogIterator {
+  public abstract boolean hasNext();
+  public abstract int len();
+  public abstract io.nekohasekai.libbox.LogEntry next();
+}
+Compiled from "NeighborEntry.java"
+public final class io.nekohasekai.libbox.NeighborEntry implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.NeighborEntry();
+  public final native java.lang.String getAddress();
+  public final native void setAddress(java.lang.String);
+  public final native java.lang.String getMacAddress();
+  public final native void setMacAddress(java.lang.String);
+  public final native java.lang.String getHostname();
+  public final native void setHostname(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "NeighborEntryIterator.java"
+public interface io.nekohasekai.libbox.NeighborEntryIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.NeighborEntry next();
+}
+Compiled from "NeighborSubscription.java"
+public final class io.nekohasekai.libbox.NeighborSubscription implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.NeighborSubscription();
+  public native void close();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "NeighborUpdateListener.java"
+public interface io.nekohasekai.libbox.NeighborUpdateListener {
+  public abstract void updateNeighborTable(io.nekohasekai.libbox.NeighborEntryIterator);
+}
+Compiled from "NetworkInterface.java"
+public final class io.nekohasekai.libbox.NetworkInterface implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.NetworkInterface();
+  public final native int getIndex();
+  public final native void setIndex(int);
+  public final native int getMTU();
+  public final native void setMTU(int);
+  public final native java.lang.String getName();
+  public final native void setName(java.lang.String);
+  public final native io.nekohasekai.libbox.StringIterator getAddresses();
+  public final native void setAddresses(io.nekohasekai.libbox.StringIterator);
+  public final native int getFlags();
+  public final native void setFlags(int);
+  public final native int getType();
+  public final native void setType(int);
+  public final native io.nekohasekai.libbox.StringIterator getDNSServer();
+  public final native void setDNSServer(io.nekohasekai.libbox.StringIterator);
+  public final native io.nekohasekai.libbox.StringIterator getGateway();
+  public final native void setGateway(io.nekohasekai.libbox.StringIterator);
+  public final native boolean getMetered();
+  public final native void setMetered(boolean);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "NetworkInterfaceIterator.java"
+public interface io.nekohasekai.libbox.NetworkInterfaceIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.NetworkInterface next();
+}
+Compiled from "NetworkQualityProgress.java"
+public final class io.nekohasekai.libbox.NetworkQualityProgress implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.NetworkQualityProgress();
+  public final native int getPhase();
+  public final native void setPhase(int);
+  public final native long getDownloadCapacity();
+  public final native void setDownloadCapacity(long);
+  public final native long getUploadCapacity();
+  public final native void setUploadCapacity(long);
+  public final native int getDownloadRPM();
+  public final native void setDownloadRPM(int);
+  public final native int getUploadRPM();
+  public final native void setUploadRPM(int);
+  public final native int getIdleLatencyMs();
+  public final native void setIdleLatencyMs(int);
+  public final native long getElapsedMs();
+  public final native void setElapsedMs(long);
+  public final native int getDownloadCapacityAccuracy();
+  public final native void setDownloadCapacityAccuracy(int);
+  public final native int getUploadCapacityAccuracy();
+  public final native void setUploadCapacityAccuracy(int);
+  public final native int getDownloadRPMAccuracy();
+  public final native void setDownloadRPMAccuracy(int);
+  public final native int getUploadRPMAccuracy();
+  public final native void setUploadRPMAccuracy(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "NetworkQualityResult.java"
+public final class io.nekohasekai.libbox.NetworkQualityResult implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.NetworkQualityResult();
+  public final native long getDownloadCapacity();
+  public final native void setDownloadCapacity(long);
+  public final native long getUploadCapacity();
+  public final native void setUploadCapacity(long);
+  public final native int getDownloadRPM();
+  public final native void setDownloadRPM(int);
+  public final native int getUploadRPM();
+  public final native void setUploadRPM(int);
+  public final native int getIdleLatencyMs();
+  public final native void setIdleLatencyMs(int);
+  public final native int getDownloadCapacityAccuracy();
+  public final native void setDownloadCapacityAccuracy(int);
+  public final native int getUploadCapacityAccuracy();
+  public final native void setUploadCapacityAccuracy(int);
+  public final native int getDownloadRPMAccuracy();
+  public final native void setDownloadRPMAccuracy(int);
+  public final native int getUploadRPMAccuracy();
+  public final native void setUploadRPMAccuracy(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "NetworkQualityTest.java"
+public final class io.nekohasekai.libbox.NetworkQualityTest implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.NetworkQualityTest();
+  public native void cancel();
+  public native void start(java.lang.String, boolean, int, boolean, io.nekohasekai.libbox.NetworkQualityTestHandler);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "NetworkQualityTestHandler.java"
+public interface io.nekohasekai.libbox.NetworkQualityTestHandler {
+  public abstract void onError(java.lang.String);
+  public abstract void onProgress(io.nekohasekai.libbox.NetworkQualityProgress);
+  public abstract void onResult(io.nekohasekai.libbox.NetworkQualityResult);
+}
+Compiled from "NetworkQualityTestSession.java"
+public final class io.nekohasekai.libbox.NetworkQualityTestSession implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.NetworkQualityTestSession();
+  public native void close() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "Notification.java"
+public final class io.nekohasekai.libbox.Notification implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.Notification();
+  public final native java.lang.String getIdentifier();
+  public final native void setIdentifier(java.lang.String);
+  public final native java.lang.String getTypeName();
+  public final native void setTypeName(java.lang.String);
+  public final native int getTypeID();
+  public final native void setTypeID(int);
+  public final native java.lang.String getTitle();
+  public final native void setTitle(java.lang.String);
+  public final native java.lang.String getSubtitle();
+  public final native void setSubtitle(java.lang.String);
+  public final native java.lang.String getBody();
+  public final native void setBody(java.lang.String);
+  public final native java.lang.String getOpenURL();
+  public final native void setOpenURL(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OnDemandRule.java"
+public interface io.nekohasekai.libbox.OnDemandRule {
+  public abstract io.nekohasekai.libbox.StringIterator dnsSearchDomainMatch();
+  public abstract io.nekohasekai.libbox.StringIterator dnsServerAddressMatch();
+  public abstract int interfaceTypeMatch();
+  public abstract java.lang.String probeURL();
+  public abstract io.nekohasekai.libbox.StringIterator ssidMatch();
+  public abstract int target();
+}
+Compiled from "OnDemandRuleIterator.java"
+public interface io.nekohasekai.libbox.OnDemandRuleIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.OnDemandRule next();
+}
+Compiled from "OpenConnectAuthChallenge.java"
+public final class io.nekohasekai.libbox.OpenConnectAuthChallenge implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectAuthChallenge();
+  public final native java.lang.String getID();
+  public final native void setID(java.lang.String);
+  public final native java.lang.String getBanner();
+  public final native void setBanner(java.lang.String);
+  public final native java.lang.String getMessage();
+  public final native void setMessage(java.lang.String);
+  public final native java.lang.String getError();
+  public final native void setError(java.lang.String);
+  public final native io.nekohasekai.libbox.OpenConnectAuthForm getForm();
+  public final native void setForm(io.nekohasekai.libbox.OpenConnectAuthForm);
+  public final native io.nekohasekai.libbox.OpenConnectBrowserRequest getBrowser();
+  public final native void setBrowser(io.nekohasekai.libbox.OpenConnectBrowserRequest);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectAuthForm.java"
+public final class io.nekohasekai.libbox.OpenConnectAuthForm implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectAuthForm();
+  public native io.nekohasekai.libbox.OpenConnectAuthFormFieldIterator fields();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectAuthFormChoice.java"
+public final class io.nekohasekai.libbox.OpenConnectAuthFormChoice implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectAuthFormChoice();
+  public final native java.lang.String getValue();
+  public final native void setValue(java.lang.String);
+  public final native java.lang.String getLabel();
+  public final native void setLabel(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectAuthFormChoiceIterator.java"
+public interface io.nekohasekai.libbox.OpenConnectAuthFormChoiceIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.OpenConnectAuthFormChoice next();
+}
+Compiled from "OpenConnectAuthFormField.java"
+public final class io.nekohasekai.libbox.OpenConnectAuthFormField implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectAuthFormField();
+  public final native java.lang.String getSubmissionKey();
+  public final native void setSubmissionKey(java.lang.String);
+  public final native java.lang.String getName();
+  public final native void setName(java.lang.String);
+  public final native java.lang.String getLabel();
+  public final native void setLabel(java.lang.String);
+  public final native java.lang.String getKind();
+  public final native void setKind(java.lang.String);
+  public final native java.lang.String getValue();
+  public final native void setValue(java.lang.String);
+  public native io.nekohasekai.libbox.OpenConnectAuthFormChoiceIterator options();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectAuthFormFieldIterator.java"
+public interface io.nekohasekai.libbox.OpenConnectAuthFormFieldIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.OpenConnectAuthFormField next();
+}
+Compiled from "OpenConnectAuthResponse.java"
+public final class io.nekohasekai.libbox.OpenConnectAuthResponse implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectAuthResponse();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectBrowserRequest.java"
+public final class io.nekohasekai.libbox.OpenConnectBrowserRequest implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectBrowserRequest();
+  public final native java.lang.String getURL();
+  public final native void setURL(java.lang.String);
+  public final native java.lang.String getFinalURL();
+  public final native void setFinalURL(java.lang.String);
+  public final native java.lang.String getCacheID();
+  public final native void setCacheID(java.lang.String);
+  public native io.nekohasekai.libbox.StringIterator callbackURLPrefixes();
+  public native io.nekohasekai.libbox.StringIterator cookieNames();
+  public native io.nekohasekai.libbox.StringIterator earlyCookieNames();
+  public native io.nekohasekai.libbox.StringIterator headerNames();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectBrowserResult.java"
+public final class io.nekohasekai.libbox.OpenConnectBrowserResult implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectBrowserResult(java.lang.String);
+  public final native java.lang.String getFinalURL();
+  public final native void setFinalURL(java.lang.String);
+  public native void addCookie(java.lang.String, java.lang.String);
+  public native void addHeader(java.lang.String, java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectEndpointStatus.java"
+public final class io.nekohasekai.libbox.OpenConnectEndpointStatus implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectEndpointStatus();
+  public final native java.lang.String getEndpointTag();
+  public final native void setEndpointTag(java.lang.String);
+  public final native java.lang.String getState();
+  public final native void setState(java.lang.String);
+  public final native java.lang.String getStateText();
+  public final native void setStateText(java.lang.String);
+  public final native io.nekohasekai.libbox.OpenConnectAuthChallenge getAuthChallenge();
+  public final native void setAuthChallenge(io.nekohasekai.libbox.OpenConnectAuthChallenge);
+  public final native java.lang.String getError();
+  public final native void setError(java.lang.String);
+  public final native io.nekohasekai.libbox.OpenConnectTunnelInfo getTunnelInfo();
+  public final native void setTunnelInfo(io.nekohasekai.libbox.OpenConnectTunnelInfo);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectEndpointStatusIterator.java"
+public interface io.nekohasekai.libbox.OpenConnectEndpointStatusIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.OpenConnectEndpointStatus next();
+}
+Compiled from "OpenConnectFormValues.java"
+public final class io.nekohasekai.libbox.OpenConnectFormValues implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectFormValues();
+  public native void add(java.lang.String, java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectStatusHandler.java"
+public interface io.nekohasekai.libbox.OpenConnectStatusHandler {
+  public abstract void onError(java.lang.String);
+  public abstract void onStatusUpdate(io.nekohasekai.libbox.OpenConnectStatusUpdate);
+}
+Compiled from "OpenConnectStatusSubscription.java"
+public final class io.nekohasekai.libbox.OpenConnectStatusSubscription implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectStatusSubscription();
+  public native void close() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectStatusUpdate.java"
+public final class io.nekohasekai.libbox.OpenConnectStatusUpdate implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectStatusUpdate();
+  public native io.nekohasekai.libbox.OpenConnectEndpointStatusIterator endpoints();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenConnectTunnelInfo.java"
+public final class io.nekohasekai.libbox.OpenConnectTunnelInfo implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenConnectTunnelInfo();
+  public final native java.lang.String getServer();
+  public final native void setServer(java.lang.String);
+  public final native java.lang.String getFlavor();
+  public final native void setFlavor(java.lang.String);
+  public final native java.lang.String getTransport();
+  public final native void setTransport(java.lang.String);
+  public final native int getMTU();
+  public final native void setMTU(int);
+  public final native long getConnectedSince();
+  public final native void setConnectedSince(long);
+  public native io.nekohasekai.libbox.StringIterator dns();
+  public native io.nekohasekai.libbox.StringIterator iPv4();
+  public native io.nekohasekai.libbox.StringIterator iPv6();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenVPNChallenge.java"
+public final class io.nekohasekai.libbox.OpenVPNChallenge implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenVPNChallenge();
+  public final native java.lang.String getID();
+  public final native void setID(java.lang.String);
+  public final native java.lang.String getKind();
+  public final native void setKind(java.lang.String);
+  public final native java.lang.String getUsername();
+  public final native void setUsername(java.lang.String);
+  public final native java.lang.String getMessage();
+  public final native void setMessage(java.lang.String);
+  public final native java.lang.String getURL();
+  public final native void setURL(java.lang.String);
+  public final native java.lang.String getSecretMessage();
+  public final native void setSecretMessage(java.lang.String);
+  public final native boolean getEcho();
+  public final native void setEcho(boolean);
+  public final native java.lang.String getPreviousError();
+  public final native void setPreviousError(java.lang.String);
+  public final native long getDeadline();
+  public final native void setDeadline(long);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenVPNChallengeResponse.java"
+public final class io.nekohasekai.libbox.OpenVPNChallengeResponse implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenVPNChallengeResponse();
+  public final native java.lang.String getUsername();
+  public final native void setUsername(java.lang.String);
+  public final native java.lang.String getPassword();
+  public final native void setPassword(java.lang.String);
+  public final native java.lang.String getSecret();
+  public final native void setSecret(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenVPNEndpointStatus.java"
+public final class io.nekohasekai.libbox.OpenVPNEndpointStatus implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenVPNEndpointStatus();
+  public final native java.lang.String getEndpointTag();
+  public final native void setEndpointTag(java.lang.String);
+  public final native java.lang.String getState();
+  public final native void setState(java.lang.String);
+  public final native java.lang.String getStateText();
+  public final native void setStateText(java.lang.String);
+  public final native io.nekohasekai.libbox.OpenVPNChallenge getChallenge();
+  public final native void setChallenge(io.nekohasekai.libbox.OpenVPNChallenge);
+  public final native java.lang.String getError();
+  public final native void setError(java.lang.String);
+  public final native io.nekohasekai.libbox.OpenVPNTunnelInfo getTunnelInfo();
+  public final native void setTunnelInfo(io.nekohasekai.libbox.OpenVPNTunnelInfo);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenVPNEndpointStatusIterator.java"
+public interface io.nekohasekai.libbox.OpenVPNEndpointStatusIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.OpenVPNEndpointStatus next();
+}
+Compiled from "OpenVPNStatusHandler.java"
+public interface io.nekohasekai.libbox.OpenVPNStatusHandler {
+  public abstract void onError(java.lang.String);
+  public abstract void onStatusUpdate(io.nekohasekai.libbox.OpenVPNStatusUpdate);
+}
+Compiled from "OpenVPNStatusSubscription.java"
+public final class io.nekohasekai.libbox.OpenVPNStatusSubscription implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenVPNStatusSubscription();
+  public native void close() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenVPNStatusUpdate.java"
+public final class io.nekohasekai.libbox.OpenVPNStatusUpdate implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenVPNStatusUpdate();
+  public native io.nekohasekai.libbox.OpenVPNEndpointStatusIterator endpoints();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OpenVPNTunnelInfo.java"
+public final class io.nekohasekai.libbox.OpenVPNTunnelInfo implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OpenVPNTunnelInfo();
+  public final native java.lang.String getServer();
+  public final native void setServer(java.lang.String);
+  public final native java.lang.String getNetwork();
+  public final native void setNetwork(java.lang.String);
+  public final native java.lang.String getCipher();
+  public final native void setCipher(java.lang.String);
+  public final native int getMTU();
+  public final native void setMTU(int);
+  public final native long getConnectedSince();
+  public final native void setConnectedSince(long);
+  public native io.nekohasekai.libbox.StringIterator dns();
+  public native io.nekohasekai.libbox.StringIterator iPv4();
+  public native io.nekohasekai.libbox.StringIterator iPv6();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OutboundGroup.java"
+public final class io.nekohasekai.libbox.OutboundGroup implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OutboundGroup();
+  public final native java.lang.String getTag();
+  public final native void setTag(java.lang.String);
+  public final native java.lang.String getType();
+  public final native void setType(java.lang.String);
+  public final native boolean getSelectable();
+  public final native void setSelectable(boolean);
+  public final native java.lang.String getSelected();
+  public final native void setSelected(java.lang.String);
+  public final native boolean getIsExpand();
+  public final native void setIsExpand(boolean);
+  public native io.nekohasekai.libbox.OutboundGroupItemIterator getItems();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OutboundGroupItem.java"
+public final class io.nekohasekai.libbox.OutboundGroupItem implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OutboundGroupItem();
+  public final native java.lang.String getTag();
+  public final native void setTag(java.lang.String);
+  public final native java.lang.String getType();
+  public final native void setType(java.lang.String);
+  public final native long getURLTestTime();
+  public final native void setURLTestTime(long);
+  public final native int getURLTestDelay();
+  public final native void setURLTestDelay(int);
+  public final native java.lang.String getEndpointState();
+  public final native void setEndpointState(java.lang.String);
+  public final native long getIdleSinceSeconds();
+  public final native void setIdleSinceSeconds(long);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "OutboundGroupItemIterator.java"
+public interface io.nekohasekai.libbox.OutboundGroupItemIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.OutboundGroupItem next();
+}
+Compiled from "OutboundGroupIterator.java"
+public interface io.nekohasekai.libbox.OutboundGroupIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.OutboundGroup next();
+}
+Compiled from "OverrideOptions.java"
+public final class io.nekohasekai.libbox.OverrideOptions implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.OverrideOptions();
+  public final native boolean getAutoRedirect();
+  public final native void setAutoRedirect(boolean);
+  public final native io.nekohasekai.libbox.StringIterator getIncludePackage();
+  public final native void setIncludePackage(io.nekohasekai.libbox.StringIterator);
+  public final native io.nekohasekai.libbox.StringIterator getExcludePackage();
+  public final native void setExcludePackage(io.nekohasekai.libbox.StringIterator);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "PProfServer.java"
+public final class io.nekohasekai.libbox.PProfServer implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.PProfServer(long);
+  public native void close() throws java.lang.Exception;
+  public native void start() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "PeerStatus.java"
+public final class io.nekohasekai.libbox.PeerStatus implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.PeerStatus();
+  public final native java.lang.String getPublicKey();
+  public final native void setPublicKey(java.lang.String);
+  public final native java.lang.String getEndpoint();
+  public final native void setEndpoint(java.lang.String);
+  public final native long getLastHandshakeUnix();
+  public final native void setLastHandshakeUnix(long);
+  public final native long getRxBytes();
+  public final native void setRxBytes(long);
+  public final native long getTxBytes();
+  public final native void setTxBytes(long);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "PeerStatusIterator.java"
+public interface io.nekohasekai.libbox.PeerStatusIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.PeerStatus next();
+}
+Compiled from "PlatformInterface.java"
+public interface io.nekohasekai.libbox.PlatformInterface {
+  public abstract void autoDetectInterfaceControl(int) throws java.lang.Exception;
+  public abstract void cancelNotification(java.lang.String, int) throws java.lang.Exception;
+  public abstract void checkPlatformShell() throws java.lang.Exception;
+  public abstract void clearDNSCache();
+  public abstract void closeDefaultInterfaceMonitor(io.nekohasekai.libbox.InterfaceUpdateListener) throws java.lang.Exception;
+  public abstract void closeNeighborMonitor(io.nekohasekai.libbox.NeighborUpdateListener) throws java.lang.Exception;
+  public abstract io.nekohasekai.libbox.BridgeSession createBridge(io.nekohasekai.libbox.BridgeOptions) throws java.lang.Exception;
+  public abstract io.nekohasekai.libbox.ConnectionOwner findConnectionOwner(int, java.lang.String, int, java.lang.String, int) throws java.lang.Exception;
+  public abstract io.nekohasekai.libbox.NetworkInterfaceIterator getInterfaces() throws java.lang.Exception;
+  public abstract boolean includeAllNetworks();
+  public abstract io.nekohasekai.libbox.LocalDNSTransport localDNSTransport();
+  public abstract java.lang.String lookupSFTPServer() throws java.lang.Exception;
+  public abstract io.nekohasekai.libbox.PlatformUser lookupUser(java.lang.String) throws java.lang.Exception;
+  public abstract io.nekohasekai.libbox.ShellSession openShellSession(io.nekohasekai.libbox.PlatformUser, java.lang.String, io.nekohasekai.libbox.StringIterator, java.lang.String, int, int) throws java.lang.Exception;
+  public abstract int openTun(io.nekohasekai.libbox.TunOptions) throws java.lang.Exception;
+  public abstract java.lang.String readSystemSSHHostKey() throws java.lang.Exception;
+  public abstract io.nekohasekai.libbox.WIFIState readWIFIState();
+  public abstract void registerMyInterface(java.lang.String);
+  public abstract void sendNotification(io.nekohasekai.libbox.Notification) throws java.lang.Exception;
+  public abstract void startDefaultInterfaceMonitor(io.nekohasekai.libbox.InterfaceUpdateListener) throws java.lang.Exception;
+  public abstract void startNeighborMonitor(io.nekohasekai.libbox.NeighborUpdateListener) throws java.lang.Exception;
+  public abstract java.lang.String tailscaleHostname();
+  public abstract boolean underNetworkExtension();
+  public abstract boolean usePlatformAutoDetectInterfaceControl();
+  public abstract boolean usePlatformBridge();
+  public abstract boolean usePlatformShell();
+  public abstract boolean useProcFS();
+}
+Compiled from "PlatformUser.java"
+public final class io.nekohasekai.libbox.PlatformUser implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.PlatformUser();
+  public final native java.lang.String getUsername();
+  public final native void setUsername(java.lang.String);
+  public final native int getUid();
+  public final native void setUid(int);
+  public final native int getGid();
+  public final native void setGid(int);
+  public final native java.lang.String getHomeDir();
+  public final native void setHomeDir(java.lang.String);
+  public final native java.lang.String getShell();
+  public final native void setShell(java.lang.String);
+  public native io.nekohasekai.libbox.Int32Iterator groups();
+  public native void setGroups(io.nekohasekai.libbox.Int32Iterator);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "PoolSlot.java"
+public final class io.nekohasekai.libbox.PoolSlot implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.PoolSlot();
+  public final native int getSlot();
+  public final native void setSlot(int);
+  public final native java.lang.String getTag();
+  public final native void setTag(java.lang.String);
+  public final native int getDelay();
+  public final native void setDelay(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "PoolSlotIterator.java"
+public interface io.nekohasekai.libbox.PoolSlotIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.PoolSlot next();
+}
+Compiled from "ProcessInfo.java"
+public final class io.nekohasekai.libbox.ProcessInfo implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ProcessInfo();
+  public final native long getProcessID();
+  public final native void setProcessID(long);
+  public final native int getUserID();
+  public final native void setUserID(int);
+  public final native java.lang.String getUserName();
+  public final native void setUserName(java.lang.String);
+  public final native java.lang.String getProcessPath();
+  public final native void setProcessPath(java.lang.String);
+  public native io.nekohasekai.libbox.StringIterator packageNames();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ProfileContent.java"
+public final class io.nekohasekai.libbox.ProfileContent implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ProfileContent();
+  public final native java.lang.String getName();
+  public final native void setName(java.lang.String);
+  public final native int getType();
+  public final native void setType(int);
+  public final native java.lang.String getConfig();
+  public final native void setConfig(java.lang.String);
+  public final native java.lang.String getRemotePath();
+  public final native void setRemotePath(java.lang.String);
+  public final native boolean getAutoUpdate();
+  public final native void setAutoUpdate(boolean);
+  public final native int getAutoUpdateInterval();
+  public final native void setAutoUpdateInterval(int);
+  public final native long getLastUpdated();
+  public final native void setLastUpdated(long);
+  public native byte[] encode();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ProfileContentRequest.java"
+public final class io.nekohasekai.libbox.ProfileContentRequest implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ProfileContentRequest();
+  public final native long getProfileID();
+  public final native void setProfileID(long);
+  public native byte[] encode();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ProfileDecoder.java"
+public final class io.nekohasekai.libbox.ProfileDecoder implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ProfileDecoder();
+  public native void decode(byte[]) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.ProfilePreviewIterator iterator();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ProfileEncoder.java"
+public final class io.nekohasekai.libbox.ProfileEncoder implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ProfileEncoder();
+  public native void append(io.nekohasekai.libbox.ProfilePreview);
+  public native byte[] encode();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ProfilePreview.java"
+public final class io.nekohasekai.libbox.ProfilePreview implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.ProfilePreview();
+  public final native long getProfileID();
+  public final native void setProfileID(long);
+  public final native java.lang.String getName();
+  public final native void setName(java.lang.String);
+  public final native int getType();
+  public final native void setType(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ProfilePreviewIterator.java"
+public interface io.nekohasekai.libbox.ProfilePreviewIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.ProfilePreview next();
+}
+Compiled from "RemoteConnectionOptions.java"
+public final class io.nekohasekai.libbox.RemoteConnectionOptions implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.RemoteConnectionOptions();
+  public final native java.lang.String getURL();
+  public final native void setURL(java.lang.String);
+  public final native java.lang.String getSecret();
+  public final native void setSecret(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "RoutePrefix.java"
+public final class io.nekohasekai.libbox.RoutePrefix implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.RoutePrefix();
+  public native java.lang.String address();
+  public native java.lang.String mask();
+  public native int prefix();
+  public native java.lang.String string();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "RoutePrefixIterator.java"
+public interface io.nekohasekai.libbox.RoutePrefixIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.RoutePrefix next();
+}
+Compiled from "Rule.java"
+public final class io.nekohasekai.libbox.Rule implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.Rule();
+  public final native java.lang.String getType();
+  public final native void setType(java.lang.String);
+  public final native java.lang.String getPayload();
+  public final native void setPayload(java.lang.String);
+  public final native java.lang.String getAction();
+  public final native void setAction(java.lang.String);
+  public final native boolean getIsDNS();
+  public final native void setIsDNS(boolean);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "RuleIterator.java"
+public interface io.nekohasekai.libbox.RuleIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.Rule next();
+}
+Compiled from "RunningConfig.java"
+public final class io.nekohasekai.libbox.RunningConfig implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.RunningConfig();
+  public native java.lang.String content();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "STUNTest.java"
+public final class io.nekohasekai.libbox.STUNTest implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.STUNTest();
+  public native void cancel();
+  public native void start(java.lang.String, io.nekohasekai.libbox.STUNTestHandler);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "STUNTestHandler.java"
+public interface io.nekohasekai.libbox.STUNTestHandler {
+  public abstract void onError(java.lang.String);
+  public abstract void onProgress(io.nekohasekai.libbox.STUNTestProgress);
+  public abstract void onResult(io.nekohasekai.libbox.STUNTestResult);
+}
+Compiled from "STUNTestProgress.java"
+public final class io.nekohasekai.libbox.STUNTestProgress implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.STUNTestProgress();
+  public final native int getPhase();
+  public final native void setPhase(int);
+  public final native java.lang.String getExternalAddr();
+  public final native void setExternalAddr(java.lang.String);
+  public final native int getLatencyMs();
+  public final native void setLatencyMs(int);
+  public final native int getNATMapping();
+  public final native void setNATMapping(int);
+  public final native int getNATFiltering();
+  public final native void setNATFiltering(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "STUNTestResult.java"
+public final class io.nekohasekai.libbox.STUNTestResult implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.STUNTestResult();
+  public final native java.lang.String getExternalAddr();
+  public final native void setExternalAddr(java.lang.String);
+  public final native int getLatencyMs();
+  public final native void setLatencyMs(int);
+  public final native int getNATMapping();
+  public final native void setNATMapping(int);
+  public final native int getNATFiltering();
+  public final native void setNATFiltering(int);
+  public final native boolean getNATTypeSupported();
+  public final native void setNATTypeSupported(boolean);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "STUNTestSession.java"
+public final class io.nekohasekai.libbox.STUNTestSession implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.STUNTestSession();
+  public native void close() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "SetupOptions.java"
+public final class io.nekohasekai.libbox.SetupOptions implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.SetupOptions();
+  public final native java.lang.String getBasePath();
+  public final native void setBasePath(java.lang.String);
+  public final native java.lang.String getWorkingPath();
+  public final native void setWorkingPath(java.lang.String);
+  public final native java.lang.String getTempPath();
+  public final native void setTempPath(java.lang.String);
+  public final native boolean getFixAndroidStack();
+  public final native void setFixAndroidStack(boolean);
+  public final native int getCommandServerListenPort();
+  public final native void setCommandServerListenPort(int);
+  public final native java.lang.String getCommandServerSecret();
+  public final native void setCommandServerSecret(java.lang.String);
+  public final native long getLogMaxLines();
+  public final native void setLogMaxLines(long);
+  public final native boolean getDebug();
+  public final native void setDebug(boolean);
+  public final native java.lang.String getCrashReportSource();
+  public final native void setCrashReportSource(java.lang.String);
+  public final native java.lang.String getAppVersion();
+  public final native void setAppVersion(java.lang.String);
+  public final native java.lang.String getAppMarketingVersion();
+  public final native void setAppMarketingVersion(java.lang.String);
+  public final native boolean getOomKillerEnabled();
+  public final native void setOomKillerEnabled(boolean);
+  public final native boolean getOomKillerDisabled();
+  public final native void setOomKillerDisabled(boolean);
+  public final native long getOomMemoryLimit();
+  public final native void setOomMemoryLimit(long);
+  public final native boolean getPowerReportEnabled();
+  public final native void setPowerReportEnabled(boolean);
+  public final native java.lang.String getPlatformMetadata();
+  public final native void setPlatformMetadata(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "ShellSession.java"
+public interface io.nekohasekai.libbox.ShellSession {
+  public abstract void close() throws java.lang.Exception;
+  public abstract int masterFD();
+  public abstract void resize(int, int) throws java.lang.Exception;
+  public abstract void signal(int) throws java.lang.Exception;
+  public abstract int waitExit() throws java.lang.Exception;
+}
+Compiled from "StatusMessage.java"
+public final class io.nekohasekai.libbox.StatusMessage implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.StatusMessage();
+  public final native long getMemory();
+  public final native void setMemory(long);
+  public final native int getGoroutines();
+  public final native void setGoroutines(int);
+  public final native int getConnectionsIn();
+  public final native void setConnectionsIn(int);
+  public final native int getConnectionsOut();
+  public final native void setConnectionsOut(int);
+  public final native boolean getTrafficAvailable();
+  public final native void setTrafficAvailable(boolean);
+  public final native long getUplink();
+  public final native void setUplink(long);
+  public final native long getDownlink();
+  public final native void setDownlink(long);
+  public final native long getUplinkTotal();
+  public final native void setUplinkTotal(long);
+  public final native long getDownlinkTotal();
+  public final native void setDownlinkTotal(long);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "StringBox.java"
+public final class io.nekohasekai.libbox.StringBox implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.StringBox();
+  public final native java.lang.String getValue();
+  public final native void setValue(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "StringIterator.java"
+public interface io.nekohasekai.libbox.StringIterator {
+  public abstract boolean hasNext();
+  public abstract int len();
+  public abstract java.lang.String next();
+}
+Compiled from "SystemProxyStatus.java"
+public final class io.nekohasekai.libbox.SystemProxyStatus implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.SystemProxyStatus();
+  public final native boolean getAvailable();
+  public final native void setAvailable(boolean);
+  public final native boolean getEnabled();
+  public final native void setEnabled(boolean);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TaildropDownloadHandler.java"
+public interface io.nekohasekai.libbox.TaildropDownloadHandler {
+  public abstract void onFinish(java.lang.String);
+  public abstract void onProgress(long, long);
+}
+Compiled from "TaildropDownloadSession.java"
+public final class io.nekohasekai.libbox.TaildropDownloadSession implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TaildropDownloadSession();
+  public native void close() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TaildropFile.java"
+public final class io.nekohasekai.libbox.TaildropFile implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TaildropFile();
+  public final native java.lang.String getName();
+  public final native void setName(java.lang.String);
+  public final native long getSize();
+  public final native void setSize(long);
+  public final native java.lang.String getSenderName();
+  public final native void setSenderName(java.lang.String);
+  public final native long getModifiedAt();
+  public final native void setModifiedAt(long);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TaildropFileIterator.java"
+public interface io.nekohasekai.libbox.TaildropFileIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.TaildropFile next();
+}
+Compiled from "TaildropInbox.java"
+public final class io.nekohasekai.libbox.TaildropInbox implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TaildropInbox();
+  public final native java.lang.String getEndpointTag();
+  public final native void setEndpointTag(java.lang.String);
+  public native io.nekohasekai.libbox.TaildropFileIterator files();
+  public native io.nekohasekai.libbox.TaildropReceivingFileIterator receiving();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TaildropInboxHandler.java"
+public interface io.nekohasekai.libbox.TaildropInboxHandler {
+  public abstract void onError(java.lang.String);
+  public abstract void onInboxUpdate(io.nekohasekai.libbox.TaildropInbox);
+}
+Compiled from "TaildropInboxSubscription.java"
+public final class io.nekohasekai.libbox.TaildropInboxSubscription implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TaildropInboxSubscription();
+  public native void close() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TaildropReceivingFile.java"
+public final class io.nekohasekai.libbox.TaildropReceivingFile implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TaildropReceivingFile();
+  public final native java.lang.String getName();
+  public final native void setName(java.lang.String);
+  public final native long getSize();
+  public final native void setSize(long);
+  public final native long getReceivedBytes();
+  public final native void setReceivedBytes(long);
+  public final native java.lang.String getSenderID();
+  public final native void setSenderID(java.lang.String);
+  public final native java.lang.String getSenderName();
+  public final native void setSenderName(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TaildropReceivingFileIterator.java"
+public interface io.nekohasekai.libbox.TaildropReceivingFileIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.TaildropReceivingFile next();
+}
+Compiled from "TaildropSendHandler.java"
+public interface io.nekohasekai.libbox.TaildropSendHandler {
+  public abstract void onFileCompleted(int, long);
+  public abstract void onFinish(java.lang.String);
+  public abstract void onProgress(int, long);
+}
+Compiled from "TaildropSendOptions.java"
+public final class io.nekohasekai.libbox.TaildropSendOptions implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TaildropSendOptions();
+  public final native java.lang.String getEndpointTag();
+  public final native void setEndpointTag(java.lang.String);
+  public final native java.lang.String getPeerStableID();
+  public final native void setPeerStableID(java.lang.String);
+  public native void addFile(java.lang.String, long);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TaildropSendSession.java"
+public final class io.nekohasekai.libbox.TaildropSendSession implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TaildropSendSession();
+  public native void close() throws java.lang.Exception;
+  public native void finishFile() throws java.lang.Exception;
+  public native void writeChunk(byte[]) throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TailscaleEndpointStatus.java"
+public final class io.nekohasekai.libbox.TailscaleEndpointStatus implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TailscaleEndpointStatus();
+  public final native java.lang.String getEndpointTag();
+  public final native void setEndpointTag(java.lang.String);
+  public final native java.lang.String getBackendState();
+  public final native void setBackendState(java.lang.String);
+  public final native java.lang.String getStateText();
+  public final native void setStateText(java.lang.String);
+  public final native java.lang.String getAuthURL();
+  public final native void setAuthURL(java.lang.String);
+  public final native java.lang.String getNetworkName();
+  public final native void setNetworkName(java.lang.String);
+  public final native java.lang.String getMagicDNSSuffix();
+  public final native void setMagicDNSSuffix(java.lang.String);
+  public final native io.nekohasekai.libbox.TailscalePeer getSelf();
+  public final native void setSelf(io.nekohasekai.libbox.TailscalePeer);
+  public final native io.nekohasekai.libbox.TailscalePeer getExitNode();
+  public final native void setExitNode(io.nekohasekai.libbox.TailscalePeer);
+  public final native boolean getKeyAuth();
+  public final native void setKeyAuth(boolean);
+  public final native boolean getCanShareFiles();
+  public final native void setCanShareFiles(boolean);
+  public final native int getWaitingFileCount();
+  public final native void setWaitingFileCount(int);
+  public final native int getReceivingFileCount();
+  public final native void setReceivingFileCount(int);
+  public final native int getUnreadFileCount();
+  public final native void setUnreadFileCount(int);
+  public native io.nekohasekai.libbox.StringIterator health();
+  public native io.nekohasekai.libbox.TailscaleUserGroupIterator userGroups();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TailscaleEndpointStatusIterator.java"
+public interface io.nekohasekai.libbox.TailscaleEndpointStatusIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.TailscaleEndpointStatus next();
+}
+Compiled from "TailscalePeer.java"
+public final class io.nekohasekai.libbox.TailscalePeer implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TailscalePeer();
+  public final native java.lang.String getStableID();
+  public final native void setStableID(java.lang.String);
+  public final native java.lang.String getHostName();
+  public final native void setHostName(java.lang.String);
+  public final native java.lang.String getDNSName();
+  public final native void setDNSName(java.lang.String);
+  public final native java.lang.String getOS();
+  public final native void setOS(java.lang.String);
+  public final native boolean getOnline();
+  public final native void setOnline(boolean);
+  public final native boolean getExitNode();
+  public final native void setExitNode(boolean);
+  public final native boolean getExitNodeOption();
+  public final native void setExitNodeOption(boolean);
+  public final native boolean getShareeNode();
+  public final native void setShareeNode(boolean);
+  public final native boolean getExpired();
+  public final native void setExpired(boolean);
+  public final native boolean getActive();
+  public final native void setActive(boolean);
+  public final native boolean getCanReceiveFiles();
+  public final native void setCanReceiveFiles(boolean);
+  public final native long getRxBytes();
+  public final native void setRxBytes(long);
+  public final native long getTxBytes();
+  public final native void setTxBytes(long);
+  public final native long getKeyExpiry();
+  public final native void setKeyExpiry(long);
+  public final native long getLastSeen();
+  public final native void setLastSeen(long);
+  public final native java.lang.String getPath();
+  public final native void setPath(java.lang.String);
+  public final native java.lang.String getEndpoint();
+  public final native void setEndpoint(java.lang.String);
+  public final native java.lang.String getPeerRelay();
+  public final native void setPeerRelay(java.lang.String);
+  public final native java.lang.String getDERPRegionCode();
+  public final native void setDERPRegionCode(java.lang.String);
+  public final native long getLastHandshake();
+  public final native void setLastHandshake(long);
+  public native io.nekohasekai.libbox.StringIterator sshHostKeys();
+  public native io.nekohasekai.libbox.StringIterator tailscaleIPs();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TailscalePeerIterator.java"
+public interface io.nekohasekai.libbox.TailscalePeerIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.TailscalePeer next();
+}
+Compiled from "TailscalePingHandler.java"
+public interface io.nekohasekai.libbox.TailscalePingHandler {
+  public abstract void onError(java.lang.String);
+  public abstract void onPingResult(io.nekohasekai.libbox.TailscalePingResult);
+}
+Compiled from "TailscalePingResult.java"
+public final class io.nekohasekai.libbox.TailscalePingResult implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TailscalePingResult();
+  public final native double getLatencyMs();
+  public final native void setLatencyMs(double);
+  public final native boolean getIsDirect();
+  public final native void setIsDirect(boolean);
+  public final native java.lang.String getEndpoint();
+  public final native void setEndpoint(java.lang.String);
+  public final native java.lang.String getPeerRelay();
+  public final native void setPeerRelay(java.lang.String);
+  public final native int getDERPRegionID();
+  public final native void setDERPRegionID(int);
+  public final native java.lang.String getDERPRegionCode();
+  public final native void setDERPRegionCode(java.lang.String);
+  public final native java.lang.String getError();
+  public final native void setError(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TailscalePingSession.java"
+public final class io.nekohasekai.libbox.TailscalePingSession implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TailscalePingSession();
+  public native void close() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TailscaleSSHHandler.java"
+public interface io.nekohasekai.libbox.TailscaleSSHHandler {
+  public abstract void onAuthBanner(java.lang.String);
+  public abstract void onError(java.lang.String);
+  public abstract void onExit(int, java.lang.String, java.lang.String);
+  public abstract void onOutput(byte[]);
+  public abstract void onReady();
+}
+Compiled from "TailscaleSSHOptions.java"
+public final class io.nekohasekai.libbox.TailscaleSSHOptions implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TailscaleSSHOptions();
+  public final native java.lang.String getEndpointTag();
+  public final native void setEndpointTag(java.lang.String);
+  public final native java.lang.String getPeerAddress();
+  public final native void setPeerAddress(java.lang.String);
+  public final native java.lang.String getUsername();
+  public final native void setUsername(java.lang.String);
+  public final native java.lang.String getTerminalType();
+  public final native void setTerminalType(java.lang.String);
+  public final native int getColumns();
+  public final native void setColumns(int);
+  public final native int getRows();
+  public final native void setRows(int);
+  public final native int getWidthPixels();
+  public final native void setWidthPixels(int);
+  public final native int getHeightPixels();
+  public final native void setHeightPixels(int);
+  public final native io.nekohasekai.libbox.StringIterator getHostKeys();
+  public final native void setHostKeys(io.nekohasekai.libbox.StringIterator);
+  public final native boolean getForwardAgent();
+  public final native void setForwardAgent(boolean);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TailscaleSSHSession.java"
+public final class io.nekohasekai.libbox.TailscaleSSHSession implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TailscaleSSHSession();
+  public native void close() throws java.lang.Exception;
+  public native void sendInput(byte[]) throws java.lang.Exception;
+  public native void sendResize(int, int, int, int) throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TailscaleStatusHandler.java"
+public interface io.nekohasekai.libbox.TailscaleStatusHandler {
+  public abstract void onError(java.lang.String);
+  public abstract void onStatusUpdate(io.nekohasekai.libbox.TailscaleStatusUpdate);
+}
+Compiled from "TailscaleStatusSubscription.java"
+public final class io.nekohasekai.libbox.TailscaleStatusSubscription implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TailscaleStatusSubscription();
+  public native void close() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TailscaleStatusUpdate.java"
+public final class io.nekohasekai.libbox.TailscaleStatusUpdate implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TailscaleStatusUpdate();
+  public native io.nekohasekai.libbox.TailscaleEndpointStatusIterator endpoints();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TailscaleUserGroup.java"
+public final class io.nekohasekai.libbox.TailscaleUserGroup implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.TailscaleUserGroup();
+  public final native long getUserID();
+  public final native void setUserID(long);
+  public final native java.lang.String getLoginName();
+  public final native void setLoginName(java.lang.String);
+  public final native java.lang.String getDisplayName();
+  public final native void setDisplayName(java.lang.String);
+  public final native java.lang.String getProfilePicURL();
+  public final native void setProfilePicURL(java.lang.String);
+  public native io.nekohasekai.libbox.TailscalePeerIterator peers();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "TailscaleUserGroupIterator.java"
+public interface io.nekohasekai.libbox.TailscaleUserGroupIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.TailscaleUserGroup next();
+}
+Compiled from "TunOptions.java"
+public interface io.nekohasekai.libbox.TunOptions {
+  public abstract boolean getAutoRoute();
+  public abstract io.nekohasekai.libbox.StringBox getDNSMode();
+  public abstract io.nekohasekai.libbox.StringIterator getDNSServerAddress() throws java.lang.Exception;
+  public abstract io.nekohasekai.libbox.StringIterator getExcludePackage();
+  public abstract io.nekohasekai.libbox.StringIterator getHTTPProxyBypassDomain();
+  public abstract io.nekohasekai.libbox.StringIterator getHTTPProxyMatchDomain();
+  public abstract java.lang.String getHTTPProxyServer();
+  public abstract int getHTTPProxyServerPort();
+  public abstract io.nekohasekai.libbox.StringIterator getIncludePackage();
+  public abstract io.nekohasekai.libbox.RoutePrefixIterator getInet4Address();
+  public abstract io.nekohasekai.libbox.RoutePrefixIterator getInet4RouteAddress();
+  public abstract io.nekohasekai.libbox.RoutePrefixIterator getInet4RouteExcludeAddress();
+  public abstract io.nekohasekai.libbox.RoutePrefixIterator getInet4RouteRange();
+  public abstract io.nekohasekai.libbox.RoutePrefixIterator getInet6Address();
+  public abstract io.nekohasekai.libbox.RoutePrefixIterator getInet6RouteAddress();
+  public abstract io.nekohasekai.libbox.RoutePrefixIterator getInet6RouteExcludeAddress();
+  public abstract io.nekohasekai.libbox.RoutePrefixIterator getInet6RouteRange();
+  public abstract int getMTU();
+  public abstract boolean getStrictRoute();
+  public abstract boolean isHTTPProxyEnabled();
+}
+Compiled from "URLTestOutboundResult.java"
+public final class io.nekohasekai.libbox.URLTestOutboundResult implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.URLTestOutboundResult();
+  public final native int getDelay();
+  public final native void setDelay(int);
+  public final native java.lang.String getError();
+  public final native void setError(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBDeviceDescriptor.java"
+public final class io.nekohasekai.libbox.USBDeviceDescriptor implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBDeviceDescriptor(java.lang.String, java.lang.String);
+  public final native java.lang.String getServerTag();
+  public final native void setServerTag(java.lang.String);
+  public final native java.lang.String getDeviceID();
+  public final native void setDeviceID(java.lang.String);
+  public final native int getBusNum();
+  public final native void setBusNum(int);
+  public final native int getDevNum();
+  public final native void setDevNum(int);
+  public final native int getSpeed();
+  public final native void setSpeed(int);
+  public final native int getVendorID();
+  public final native void setVendorID(int);
+  public final native int getProductID();
+  public final native void setProductID(int);
+  public final native int getBCDDevice();
+  public final native void setBCDDevice(int);
+  public final native int getDeviceClass();
+  public final native void setDeviceClass(int);
+  public final native int getDeviceSubClass();
+  public final native void setDeviceSubClass(int);
+  public final native int getDeviceProtocol();
+  public final native void setDeviceProtocol(int);
+  public final native int getConfigurationValue();
+  public final native void setConfigurationValue(int);
+  public final native int getNumConfigurations();
+  public final native void setNumConfigurations(int);
+  public final native java.lang.String getSerial();
+  public final native void setSerial(java.lang.String);
+  public final native java.lang.String getProduct();
+  public final native void setProduct(java.lang.String);
+  public native void addInterface(int, int, int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBIPServerStatus.java"
+public final class io.nekohasekai.libbox.USBIPServerStatus implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBIPServerStatus();
+  public final native java.lang.String getServerTag();
+  public final native void setServerTag(java.lang.String);
+  public native io.nekohasekai.libbox.USBSharedDeviceIterator devices();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBIPServerStatusHandler.java"
+public interface io.nekohasekai.libbox.USBIPServerStatusHandler {
+  public abstract void onError(java.lang.String);
+  public abstract void onStatusUpdate(io.nekohasekai.libbox.USBIPServerStatusUpdate);
+}
+Compiled from "USBIPServerStatusIterator.java"
+public interface io.nekohasekai.libbox.USBIPServerStatusIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.USBIPServerStatus next();
+}
+Compiled from "USBIPServerStatusSubscription.java"
+public final class io.nekohasekai.libbox.USBIPServerStatusSubscription implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBIPServerStatusSubscription();
+  public native void close() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBIPServerStatusUpdate.java"
+public final class io.nekohasekai.libbox.USBIPServerStatusUpdate implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBIPServerStatusUpdate();
+  public native io.nekohasekai.libbox.USBIPServerStatusIterator servers();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBIsoPacket.java"
+public final class io.nekohasekai.libbox.USBIsoPacket implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBIsoPacket();
+  public final native int getOffset();
+  public final native void setOffset(int);
+  public final native int getLength();
+  public final native void setLength(int);
+  public final native int getActualLength();
+  public final native void setActualLength(int);
+  public final native int getStatus();
+  public final native void setStatus(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBLocalDeviceInfo.java"
+public final class io.nekohasekai.libbox.USBLocalDeviceInfo implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBLocalDeviceInfo();
+  public final native java.lang.String getStableID();
+  public final native void setStableID(java.lang.String);
+  public final native java.lang.String getBusID();
+  public final native void setBusID(java.lang.String);
+  public final native int getBackend();
+  public final native void setBackend(int);
+  public final native int getBusNum();
+  public final native void setBusNum(int);
+  public final native int getDevNum();
+  public final native void setDevNum(int);
+  public final native int getSpeed();
+  public final native void setSpeed(int);
+  public final native int getVendorID();
+  public final native void setVendorID(int);
+  public final native int getProductID();
+  public final native void setProductID(int);
+  public final native int getBCDDevice();
+  public final native void setBCDDevice(int);
+  public final native int getDeviceClass();
+  public final native void setDeviceClass(int);
+  public final native int getDeviceSubClass();
+  public final native void setDeviceSubClass(int);
+  public final native int getDeviceProtocol();
+  public final native void setDeviceProtocol(int);
+  public final native int getConfigurationValue();
+  public final native void setConfigurationValue(int);
+  public final native int getNumConfigurations();
+  public final native void setNumConfigurations(int);
+  public final native java.lang.String getSerial();
+  public final native void setSerial(java.lang.String);
+  public final native java.lang.String getProduct();
+  public final native void setProduct(java.lang.String);
+  public native io.nekohasekai.libbox.USBSharedDeviceInterfaceIterator interfaces();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBLocalDeviceInfoIterator.java"
+public interface io.nekohasekai.libbox.USBLocalDeviceInfoIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.USBLocalDeviceInfo next();
+}
+Compiled from "USBLocalProvidedDevice.java"
+public final class io.nekohasekai.libbox.USBLocalProvidedDevice implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBLocalProvidedDevice();
+  public final native java.lang.String getServerTag();
+  public final native void setServerTag(java.lang.String);
+  public final native java.lang.String getDeviceID();
+  public final native void setDeviceID(java.lang.String);
+  public final native java.lang.String getLocalDeviceID();
+  public final native void setLocalDeviceID(java.lang.String);
+  public final native java.lang.String getLabel();
+  public final native void setLabel(java.lang.String);
+  public final native int getVendorID();
+  public final native void setVendorID(int);
+  public final native int getProductID();
+  public final native void setProductID(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBLocalProviderHandler.java"
+public interface io.nekohasekai.libbox.USBLocalProviderHandler {
+  public abstract void onDeviceError(java.lang.String, java.lang.String, java.lang.String);
+  public abstract void onLocalDevicesChanged();
+  public abstract void onSessionError(java.lang.String, java.lang.String);
+}
+Compiled from "USBLocalProviderManager.java"
+public final class io.nekohasekai.libbox.USBLocalProviderManager implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBLocalProviderManager();
+  public native io.nekohasekai.libbox.USBLocalProvidedDevice attach(java.lang.String, java.lang.String) throws java.lang.Exception;
+  public native void close() throws java.lang.Exception;
+  public native void detach(java.lang.String) throws java.lang.Exception;
+  public native io.nekohasekai.libbox.USBLocalDeviceInfoIterator listDevices() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBProviderHandler.java"
+public interface io.nekohasekai.libbox.USBProviderHandler {
+  public abstract void onAbort(java.lang.String, int);
+  public abstract void onError(java.lang.String, java.lang.String);
+  public abstract void onReady(java.lang.String, java.lang.String);
+  public abstract void onURBRequest(io.nekohasekai.libbox.USBURBRequest);
+}
+Compiled from "USBProviderSession.java"
+public final class io.nekohasekai.libbox.USBProviderSession implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBProviderSession();
+  public native void attachDevice(io.nekohasekai.libbox.USBDeviceDescriptor) throws java.lang.Exception;
+  public native void close() throws java.lang.Exception;
+  public native void detachDevice(java.lang.String) throws java.lang.Exception;
+  public native void sendURBResponse(io.nekohasekai.libbox.USBURBResponse) throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBSharedDevice.java"
+public final class io.nekohasekai.libbox.USBSharedDevice implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBSharedDevice();
+  public final native java.lang.String getBusID();
+  public final native void setBusID(java.lang.String);
+  public final native java.lang.String getStableID();
+  public final native void setStableID(java.lang.String);
+  public final native int getBackend();
+  public final native void setBackend(int);
+  public final native int getState();
+  public final native void setState(int);
+  public final native java.lang.String getDeviceID();
+  public final native void setDeviceID(java.lang.String);
+  public final native int getBusNum();
+  public final native void setBusNum(int);
+  public final native int getDevNum();
+  public final native void setDevNum(int);
+  public final native int getSpeed();
+  public final native void setSpeed(int);
+  public final native int getVendorID();
+  public final native void setVendorID(int);
+  public final native int getProductID();
+  public final native void setProductID(int);
+  public final native int getBCDDevice();
+  public final native void setBCDDevice(int);
+  public final native int getDeviceClass();
+  public final native void setDeviceClass(int);
+  public final native int getDeviceSubClass();
+  public final native void setDeviceSubClass(int);
+  public final native int getDeviceProtocol();
+  public final native void setDeviceProtocol(int);
+  public final native int getConfigurationValue();
+  public final native void setConfigurationValue(int);
+  public final native int getNumConfigurations();
+  public final native void setNumConfigurations(int);
+  public final native java.lang.String getSerial();
+  public final native void setSerial(java.lang.String);
+  public final native java.lang.String getProduct();
+  public final native void setProduct(java.lang.String);
+  public native io.nekohasekai.libbox.USBSharedDeviceInterfaceIterator interfaces();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBSharedDeviceInterface.java"
+public final class io.nekohasekai.libbox.USBSharedDeviceInterface implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBSharedDeviceInterface();
+  public final native int getInterfaceClass();
+  public final native void setInterfaceClass(int);
+  public final native int getInterfaceSubClass();
+  public final native void setInterfaceSubClass(int);
+  public final native int getInterfaceProtocol();
+  public final native void setInterfaceProtocol(int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBSharedDeviceInterfaceIterator.java"
+public interface io.nekohasekai.libbox.USBSharedDeviceInterfaceIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.USBSharedDeviceInterface next();
+}
+Compiled from "USBSharedDeviceIterator.java"
+public interface io.nekohasekai.libbox.USBSharedDeviceIterator {
+  public abstract boolean hasNext();
+  public abstract io.nekohasekai.libbox.USBSharedDevice next();
+}
+Compiled from "USBURBRequest.java"
+public final class io.nekohasekai.libbox.USBURBRequest implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBURBRequest();
+  public final native java.lang.String getDeviceID();
+  public final native void setDeviceID(java.lang.String);
+  public final native long getSeq();
+  public final native void setSeq(long);
+  public final native int getEndpoint();
+  public final native void setEndpoint(int);
+  public final native boolean getDirectionIn();
+  public final native void setDirectionIn(boolean);
+  public final native int getTransferFlags();
+  public final native void setTransferFlags(int);
+  public final native byte[] getSetup();
+  public final native void setSetup(byte[]);
+  public final native int getTransferBufferLength();
+  public final native void setTransferBufferLength(int);
+  public final native byte[] getOutData();
+  public final native void setOutData(byte[]);
+  public final native int getNumberOfPackets();
+  public final native void setNumberOfPackets(int);
+  public final native int getStartFrame();
+  public final native void setStartFrame(int);
+  public final native int getInterval();
+  public final native void setInterval(int);
+  public native io.nekohasekai.libbox.USBIsoPacket getIsoPacket(int);
+  public native int isoPacketCount();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "USBURBResponse.java"
+public final class io.nekohasekai.libbox.USBURBResponse implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.USBURBResponse(java.lang.String, long);
+  public final native java.lang.String getDeviceID();
+  public final native void setDeviceID(java.lang.String);
+  public final native long getSeq();
+  public final native void setSeq(long);
+  public final native int getStatus();
+  public final native void setStatus(int);
+  public final native int getActualLength();
+  public final native void setActualLength(int);
+  public final native byte[] getInData();
+  public final native void setInData(byte[]);
+  public native void addIsoPacket(int, int, int, int);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "WIFIState.java"
+public final class io.nekohasekai.libbox.WIFIState implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.WIFIState(java.lang.String, java.lang.String);
+  public final native java.lang.String getSSID();
+  public final native void setSSID(java.lang.String);
+  public final native java.lang.String getBSSID();
+  public final native void setBSSID(java.lang.String);
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "WireGuardEndpointStatus.java"
+public final class io.nekohasekai.libbox.WireGuardEndpointStatus implements go.Seq$Proxy {
+  public final int refnum;
+  public final int incRefnum();
+  public io.nekohasekai.libbox.WireGuardEndpointStatus();
+  public final native java.lang.String getEndpointTag();
+  public final native void setEndpointTag(java.lang.String);
+  public final native java.lang.String getEndpointState();
+  public final native void setEndpointState(java.lang.String);
+  public final native long getIdleSinceSeconds();
+  public final native void setIdleSinceSeconds(long);
+  public native io.nekohasekai.libbox.PeerStatusIterator peers();
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "XPCDialer.java"
+public interface io.nekohasekai.libbox.XPCDialer {
+  public abstract int dialXPC() throws java.lang.Exception;
+}
+
