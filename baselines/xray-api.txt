@@ -1,0 +1,48 @@
+== classes.jar: 7 классов ==
+go.Seq
+go.Universe
+go.error
+libv2ray.CoreCallbackHandler
+libv2ray.CoreController
+libv2ray.Libv2ray
+libv2ray.ProcessFinder
+
+Compiled from "CoreCallbackHandler.java"
+public interface libv2ray.CoreCallbackHandler {
+  public abstract long onEmitStatus(long, java.lang.String);
+  public abstract long shutdown();
+  public abstract long startup();
+}
+Compiled from "CoreController.java"
+public final class libv2ray.CoreController implements go.Seq$Proxy {
+  public final int incRefnum();
+  public libv2ray.CoreController(libv2ray.CoreCallbackHandler);
+  public final native libv2ray.CoreCallbackHandler getCallbackHandler();
+  public final native void setCallbackHandler(libv2ray.CoreCallbackHandler);
+  public final native boolean getIsRunning();
+  public final native void setIsRunning(boolean);
+  public native long measureDelay(java.lang.String) throws java.lang.Exception;
+  public native java.lang.String queryAllOutboundTrafficStats();
+  public native void registerProcessFinder(libv2ray.ProcessFinder);
+  public native void startLoop(java.lang.String, int) throws java.lang.Exception;
+  public native void stopLoop() throws java.lang.Exception;
+  public boolean equals(java.lang.Object);
+  public int hashCode();
+  public java.lang.String toString();
+}
+Compiled from "Libv2ray.java"
+public abstract class libv2ray.Libv2ray {
+  public static void touch();
+  public static native java.lang.String checkVersionX();
+  public static native java.lang.String fetchQuicCertSha256(java.lang.String);
+  public static native java.lang.String fetchTlsCertSha256(java.lang.String);
+  public static native void initCoreEnv(java.lang.String, java.lang.String);
+  public static native long measureOutboundDelay(java.lang.String, java.lang.String) throws java.lang.Exception;
+  public static native libv2ray.CoreController newCoreController(libv2ray.CoreCallbackHandler);
+  public static native void reconcileBrowserDialer(java.lang.String);
+}
+Compiled from "ProcessFinder.java"
+public interface libv2ray.ProcessFinder {
+  public abstract long findProcessByConnection(java.lang.String, java.lang.String, long, java.lang.String, long);
+}
+
