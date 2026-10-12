@@ -1,0 +1,115 @@
+name: Build cores
+
+on:
+  schedule:
+    - cron: "17 4 * * *"      # раз в сутки
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Выложить, даже если API ядра изменился"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false          # ошибка одного ядра не останавливает другое
+      matrix:
+        core: [xray, singbox]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Последняя версия апстрима
+        id: ver
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python build_core.py --core ${{ matrix.core }} --latest --resolve-only
+
+      - name: Релиз уже есть?
+        id: exists
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "${{ steps.ver.outputs.tag }}" >/dev/null 2>&1; then
+            echo "done=true" >> "$GITHUB_OUTPUT"
+            echo "Релиз ${{ steps.ver.outputs.tag }} уже есть, пропускаю."
+          else
+            echo "done=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Собрать
+        if: steps.exists.outputs.done == 'false'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python build_core.py --core ${{ matrix.core }} --latest --repo "${{ github.repository }}"
+
+      - name: Найти папку со сборкой
+        if: steps.exists.outputs.done == 'false'
+        id: dir
+        run: |
+          if [ "${{ matrix.core }}" = "singbox" ]; then echo "path=cicada-core" >> "$GITHUB_OUTPUT"; else echo "path=cicada-core-${{ matrix.core }}" >> "$GITHUB_OUTPUT"; fi
+
+      - name: Сверить API с базовым
+        if: steps.exists.outputs.done == 'false'
+        id: api
+        run: |
+          D="${{ steps.dir.outputs.path }}"
+          B="baselines/${{ matrix.core }}-api.txt"
+          mkdir -p baselines
+          if [ ! -f "$B" ]; then
+            cp "$D/api.txt" "$B"
+            echo "commit=true" >> "$GITHUB_OUTPUT"
+            echo "Базовый API сохранён."
+          elif ! diff -u "$B" "$D/api.txt" > api.diff; then
+            echo "::warning::API ядра ${{ matrix.core }} изменился, обвязка в плагине может сломаться."
+            head -n 80 api.diff
+            if [ "${{ inputs.force }}" != "true" ]; then
+              echo "Релиз не выложен. Обновите плагин и запустите workflow вручную с force."
+              exit 1
+            fi
+            cp "$D/api.txt" "$B"
+            echo "commit=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "API не изменился."
+          fi
+
+      - name: Выложить релиз
+        if: steps.exists.outputs.done == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          D="${{ steps.dir.outputs.path }}"
+          SO=$([ "${{ matrix.core }}" = "xray" ] && echo libgojni.so.gz || echo libbox.so.gz)
+          gh release create "${{ steps.ver.outputs.tag }}" \
+            "$D/classes.dex" "$D/$SO" "$D/core.json" "$D/api.txt" \
+            --title "${{ matrix.core }} ${{ steps.ver.outputs.version }}" \
+            --notes "Собрано автоматически из апстрима. Хэши и ссылки в core.json." \
+            --latest=false
+
+      - name: Обновить манифест в репозитории
+        if: steps.exists.outputs.done == 'false'
+        run: |
+          mkdir -p manifests
+          cp "${{ steps.dir.outputs.path }}/core.json" "manifests/${{ matrix.core }}.json"
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add manifests baselines
+          git commit -m "${{ matrix.core }} ${{ steps.ver.outputs.version }}" || exit 0
+          for i in 1 2 3; do
+            git pull --rebase && git push && exit 0
+            sleep 5
+          done
+          exit 1
