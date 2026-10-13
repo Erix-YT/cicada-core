@@ -1,12 +1,12 @@
 {
-  "name": "sing-box-lx 1.14.3-lx.17",
+  "name": "sing-box-lx 1.14.3-lx.18",
   "core": "singbox",
-  "version": "1.14.3-lx.17",
-  "dex": "https://github.com/Erix-YT/cicada-core/releases/download/singbox-1.14.3-lx.17/classes.dex",
+  "version": "1.14.3-lx.18",
+  "dex": "https://github.com/Erix-YT/cicada-core/releases/download/singbox-1.14.3-lx.18/classes.dex",
   "dex_sha256": "2141177cd54d3effa94917accecda80e62ddc18e0935038a9afcdd71c393118e",
-  "so": "https://github.com/Erix-YT/cicada-core/releases/download/singbox-1.14.3-lx.17/libbox.so.gz",
-  "so_sha256": "2e1b62e0bd382085fec8c89b4653e4e60a500c12d7a659efcc3ef50c0e4f115a",
-  "so_raw_sha256": "0579bb6e2de16f60d1dbf55b3f90ff98c89b29fd73f289b4503ba6bf0a2d8136",
-  "aar_sha256": "400fc335fb050801c05adaa9dbe0569ec480ecae410dd001d4d22937f70aa199",
-  "source": "https://github.com/Leadaxe/sing-box-lx/releases/download/v1.14.3-lx.17/libbox-1.14.3-lx.17.aar"
+  "so": "https://github.com/Erix-YT/cicada-core/releases/download/singbox-1.14.3-lx.18/libbox.so.gz",
+  "so_sha256": "2eca3f9630e82cdd82420e54a083c73496e4bfc9e84bb76b20085892611fc59e",
+  "so_raw_sha256": "4b2079517ada80986b51fc25d080b6ed9caa56f2c89cc66a2c5b848022fe7579",
+  "aar_sha256": "ebd362a960a31cc876f0b3fa51790d33a42217eee4edeba94ae7cabf23e09fae",
+  "source": "https://github.com/Leadaxe/sing-box-lx/releases/download/v1.14.3-lx.18/libbox-1.14.3-lx.18.aar"
 }
