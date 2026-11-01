@@ -1,12 +1,12 @@
 {
-  "name": "Xray (AndroidLibXrayLite) 26.10.29",
+  "name": "Xray (AndroidLibXrayLite) 26.10.31",
   "core": "xray",
-  "version": "26.10.29",
-  "dex": "https://github.com/Erix-YT/cicada-core/releases/download/xray-26.10.29/classes.dex",
+  "version": "26.10.31",
+  "dex": "https://github.com/Erix-YT/cicada-core/releases/download/xray-26.10.31/classes.dex",
   "dex_sha256": "cd984fa9e1df4f74784bba515f1d32c76916196f2271add82c3224c0f892cfa9",
-  "so": "https://github.com/Erix-YT/cicada-core/releases/download/xray-26.10.29/libgojni.so.gz",
-  "so_sha256": "7c2eec37cc0c3ac05a96026f0432a047ca01d10e578c1e2b32ed1b1f70207c36",
-  "so_raw_sha256": "31aea8b23db48f9136b89f65a2ac2805f6372d80dec9b7fc42e03bfd2e075c47",
-  "aar_sha256": "64fc529302dce728bde859f45d87a64f7289a5fbcca8ef962aae3d94c6e3fa82",
-  "source": "https://github.com/2dust/AndroidLibXrayLite/releases/download/v26.10.29/libv2ray.aar"
+  "so": "https://github.com/Erix-YT/cicada-core/releases/download/xray-26.10.31/libgojni.so.gz",
+  "so_sha256": "7d147be13598e496b6c7f8637d5bd282c04c6dd6b7df7d2e05bbea1d9f73b2df",
+  "so_raw_sha256": "bd76cd59745f5146ced9371e25e203edfc24a140302124b20b33669adb3a1efb",
+  "aar_sha256": "2efdf731b1ed624eb1cb0d5a4d0aa95c0672e89f9702226d1ba2dc90308630b6",
+  "source": "https://github.com/2dust/AndroidLibXrayLite/releases/download/v26.10.31/libv2ray.aar"
 }
